@@ -5,6 +5,8 @@ This directory contains operational documentation: team structure, legal, HR, an
 ## Contents
 
 - **[team-structure.md](team-structure.md)** - Team structure and organization
+- **[team-structure-analysis.md](team-structure-analysis.md)** - Team structure analysis and resource mapping
+- **[team-gaps-analysis.md](team-gaps-analysis.md)** - Team gaps analysis and hiring recommendations
 - **[legal/](legal/)** - Legal documents and contracts
 - **[hr/](hr/)** - HR policies and procedures
 - **[vendor-contracts/](vendor-contracts/)** - Vendor contracts and agreements

@@ -82,15 +82,22 @@ Ensure the repository ALWAYS reflects current reality:
 
 **Violation Detection:**
 - Files created outside allowed structure
-- Files in wrong directories
+- Files in wrong directories (check `0-agents/_core/file-placement-guide.md`)
 - Naming convention violations
 - **Generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md`, `summary.md`, `log.md`, `ANALYSIS.md`, `FINDINGS.md`
 - **Duplicate files** - Multiple files with similar content that should be merged
 - **Files created without consultation** - Agents should consult docs-guardian before creating new files
+- **Files in wrong location** - Common violations:
+  - Team analysis files in `3-technical/` → Should be in `6-operations/`
+  - Financial reviews in `3-technical/` → Should be in `5-financing/reviews/`
+  - Financial analysis in `3-technical/` → Should be in `5-financing/analysis/`
+  - Audit files outside `8-governance/` → Should be in `8-governance/`
 - **Plans without metadata** - Plans missing required metadata (status, type, priority, dates, epic, system)
 - **Plans in wrong location** - Plans not in `plans/active/`, `plans/epics/`, or `plans/completed/`
 - **Plans not in index** - Plans missing from `plans/README.md` index
 - **Completed plans in active** - Plans with status "completed" still in `plans/active/`
+
+**Reference:** Always check `0-agents/_core/file-placement-guide.md` for correct file locations.
 
 **Plan-Specific Violations:**
 - Plans created directly in `plans/` root (should be in `active/`, `epics/`, or `completed/`)

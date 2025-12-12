@@ -17,5 +17,5 @@ _Add financing timeline and milestones here._
 ---
 
 **Last Updated:** 2025-01-27  
-**Related:** See [1-ideas/1.2-initial-financing-plan.md](../1-ideas/1.2-initial-financing-plan.md) for initial version
+**Related:** See [1-ideas/initial-plans/1.2-initial-financing-plan.md](../1-ideas/initial-plans/1.2-initial-financing-plan.md) for initial version
 

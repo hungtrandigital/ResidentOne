@@ -90,14 +90,15 @@ Conduct comprehensive market research to validate ideas, understand competition,
 ### 5. Document Research Findings
 
 **CRITICAL FILE CREATION RULES:**
-1. **ALWAYS check existing files first** - Search `1-ideas/1.1-market-research/reports/` for similar reports
-2. **UPDATE existing reports** - If a similar report exists, UPDATE it instead of creating a new one
-3. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
-   - File location
+1. **Read file placement guide** - ALWAYS consult `0-agents/_core/file-placement-guide.md` before creating ANY file
+2. **ALWAYS check existing files first** - Search `1-ideas/1.1-market-research/reports/` for similar reports
+3. **UPDATE existing reports** - If a similar report exists, UPDATE it instead of creating a new one
+4. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
+   - File location (must follow file-placement-guide.md)
    - File naming (must be kebab-case, descriptive, dated)
    - Whether content should go in existing file instead
-4. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md` are FORBIDDEN
-5. **ALWAYS update summaries.md** - Every new finding must be added to `summaries.md`
+5. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md` are FORBIDDEN
+6. **ALWAYS update summaries.md** - Every new finding must be added to `summaries.md`
 
 **Documentation Locations:**
 - `1-ideas/1.1-market-research/reports/` - Detailed research reports

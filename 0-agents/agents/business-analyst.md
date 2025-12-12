@@ -31,14 +31,19 @@ Transform market research and customer insights into validated business cases wi
 ### 2. Create or Update Canonical Documents
 
 **CRITICAL FILE CREATION RULES:**
-1. **ALWAYS check existing files first** - Search `1-ideas/1.1-market-research/` for existing documents
-2. **UPDATE existing documents** - If a document exists, UPDATE it instead of creating a new one
-3. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
-   - File location
+1. **Read file placement guide** - ALWAYS consult `0-agents/_core/file-placement-guide.md` before creating ANY file
+2. **ALWAYS check existing files first** - Search `1-ideas/1.1-market-research/` for existing documents
+3. **UPDATE existing documents** - If a document exists, UPDATE it instead of creating a new one
+4. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
+   - File location (must follow file-placement-guide.md)
    - File naming (must be kebab-case, descriptive)
    - Whether content should go in existing file instead
-4. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `ANALYSIS.md`, `FINDINGS.md` are FORBIDDEN
-5. **ALWAYS update summaries.md** - Every new analysis must be reflected in `1-ideas/1.1-market-research/summaries.md`
+5. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `ANALYSIS.md`, `FINDINGS.md` are FORBIDDEN
+6. **ALWAYS update summaries.md** - Every new analysis must be reflected in `1-ideas/1.1-market-research/summaries.md`
+7. **Follow file type → location mapping** - Use file-placement-guide.md:
+   - Financial analysis → `5-financing/analysis/` (NOT `3-technical/`)
+   - Financial reviews → `5-financing/reviews/` (NOT `3-technical/`)
+   - Business cases → `1-ideas/executive-docs/`
 
 **Documents to Create/Update:**
 - **Competitor Matrix:** Features, pricing, strengths, weaknesses

@@ -305,6 +305,8 @@ Use Plan Mode when:
 
 ## Output Locations
 
+**CRITICAL:** Before creating ANY file, consult `0-agents/_core/file-placement-guide.md` for correct location.
+
 All Plan Mode outputs go to:
 - **Product Planning:** `2-product-foundation/`
   - `2.1-product-overview.md` - Product vision and overview
@@ -322,7 +324,15 @@ All Plan Mode outputs go to:
   - **Update index** - Add to `plans/README.md` Active Plans table
 - **Marketing Plans:** `4-marketing/go-to-market.md`
 - **Financial Plans:** `5-financing/plans.md`
+- **Financial Analysis:** `5-financing/analysis/` (NOT `3-technical/`)
+- **Financial Preparation:** `5-financing/preparation/` (NOT `3-technical/`)
+- **Team Analysis:** `6-operations/` (NOT `3-technical/`)
 - **ADRs:** `8-governance/decision-log.md`
+
+**Forbidden:**
+- ❌ Creating financial analysis in `3-technical/` (should be in `5-financing/analysis/`)
+- ❌ Creating team analysis in `3-technical/` (should be in `6-operations/`)
+- ❌ Creating preparation files in wrong directories (check file-placement-guide.md)
 
 ## Mode Transition
 

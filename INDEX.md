@@ -41,8 +41,15 @@ market/
 │   │   ├── summaries.md
 │   │   ├── templates/
 │   │   └── resources/
-│   ├── 1.2-initial-financing-plan.md
-│   └── 1.3-initial-go-to-market-plan.md
+│   ├── initial-plans/
+│   │   ├── README.md
+│   │   ├── 1.2-initial-financing-plan.md
+│   │   └── 1.3-initial-go-to-market-plan.md
+│   ├── executive-docs/
+│   │   ├── README.md
+│   │   ├── EXECUTIVE-SUMMARY.md
+│   │   └── business-case-building-marketplace.md
+│   └── 1.4-feature-ideas/
 ├── 2-product-foundation/
 │   ├── README.md
 │   ├── 2.1-product-overview.md
@@ -52,11 +59,17 @@ market/
 ├── 3-technical/
 │   ├── README.md
 │   ├── 3.1-system-foundation/
+│   │   ├── README.md
 │   │   ├── infrastructure.md
+│   │   ├── architecture-decisions-summary.md
+│   │   ├── architecture-preparation-plan.md
+│   │   ├── infrastructure-cost-allocation-analysis.md
 │   │   ├── architecture/
+│   │   │   ├── README.md
 │   │   │   ├── domain-specs.md
 │   │   │   └── api-contracts/
 │   │   └── design-standards/
+│   │       ├── README.md
 │   │       ├── coding-standards.md
 │   │       └── system-design.md
 │   ├── 3.2-implementation/
@@ -100,11 +113,24 @@ market/
 ├── 5-financing/
 │   ├── README.md
 │   ├── plans.md
+│   ├── analysis/
+│   │   ├── README.md
+│   │   ├── equity-structure-analysis.md
+│   │   └── onboarding-strategy-analysis.md
+│   ├── preparation/
+│   │   ├── README.md
+│   │   ├── founder-agreement-outline.md
+│   │   ├── pitching-deck-outline.md
+│   │   └── startup-preparation-summary.md
+│   ├── reviews/
+│   │   └── financing-plan-ai-first-review-2025-12.md
 │   ├── pitches/
 │   └── projections/
 ├── 6-operations/
 │   ├── README.md
 │   ├── team-structure.md
+│   ├── team-structure-analysis.md
+│   ├── team-gaps-analysis.md
 │   ├── legal/
 │   ├── hr/
 │   └── vendor-contracts/
@@ -145,10 +171,10 @@ market/
 - **Financial docs:** `5-financing/`
 
 ### Initial vs Final Documents
-- **Initial plans** live in `1-ideas/` (e.g., `1.2-initial-financing-plan.md`)
+- **Initial plans** live in `1-ideas/initial-plans/` (e.g., `1.2-initial-financing-plan.md`)
 - **Final versions** move to proper sections:
-  - `1.2-initial-financing-plan.md` → `5-financing/plans.md`
-  - `1.3-initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
+  - `initial-plans/1.2-initial-financing-plan.md` → `5-financing/plans.md`
+  - `initial-plans/1.3-initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
 - When moving, leave a Markdown link pointing to the new location
 
 ## Naming Conventions

@@ -11,7 +11,7 @@
 
 **Review Verdict:** MINOR_CHANGES_REQUIRED
 
-The current financing plan is well-structured but needs updates to reflect the **AI-first development approach** using Claude Code (AI Factory). The new approach significantly reduces development timeline and costs, enabling faster MVP launch and earlier revenue generation.
+The current financing plan is well-structured but needs updates to reflect the **AI-first development approach** using AI Factory with rules-based framework (model-agnostic). The new approach significantly reduces development timeline and costs, enabling faster MVP launch and earlier revenue generation.
 
 **Key Findings:**
 - ✅ Strategic approach and revenue projections remain valid
@@ -36,7 +36,7 @@ The current financing plan is well-structured but needs updates to reflect the *
 - **Months 2-3:** MVP coding (tối đa 2 tuần coding) + testing + deployment
 - **Months 3-6:** Pilot buildings onboarding, iteration, Phase 2 preparation
 - Technical Lead: Review process & code (not hands-on development)
-- AI Factory (Claude Code): Primary development work
+- AI Factory (Model-Agnostic): Primary development work using any LLM with rules-based framework
 
 ### 1.2 Team Structure Impact
 
@@ -52,7 +52,7 @@ The current financing plan is well-structured but needs updates to reflect the *
 - Co-Founders (2): VND 40M/month
 - Technical Lead: VND 30M/month (review-focused, not development)
 - Execution Team: **VND 0-17.5M/month** (0-1 person, mainly testing/QA)
-- AI Factory Cost: VND 5-10M/month (Claude Code subscription, tools)
+- AI Factory Cost: VND 5-10M/month (AI tools, LLM subscriptions - model-agnostic)
 - **Total: VND 100-106M/month** (savings: VND 24-30M/month)
 
 **Rationale:**
@@ -79,12 +79,12 @@ The current financing plan is well-structured but needs updates to reflect the *
   - Co-Founders: VND 40M/month
   - Technical Lead: VND 30M/month (review-focused)
   - Execution Team: VND 0-17.5M/month (0-1 person for testing/QA)
-  - AI Factory: VND 5-10M/month (Claude Code, tools)
+  - AI Factory: VND 5-10M/month (AI tools, LLM subscriptions - model-agnostic)
 
 **Platform Development & Infrastructure:**
 - Infrastructure: VND 10-30M/month (scales with usage)
 - Tools & Software: VND 5-10M/month
-- **AI Factory Tools:** VND 5-10M/month (Claude Code subscription, AI tools)
+- **AI Factory Tools (Model-Agnostic):** VND 5-10M/month (AI tools, LLM subscriptions - varies by model choice)
 - Third-party services: VND 5-15M/month (scales with users)
 - **Subtotal: VND 25-65M/month** (includes AI tools)
 
@@ -271,11 +271,13 @@ The current financing plan is well-structured but needs updates to reflect the *
 **RISK-AI-002: AI Tool Dependency**
 - **Impact:** Medium
 - **Probability:** Low
-- **Description:** Dependency on Claude Code/AI Factory tools, potential service disruptions
+- **Description:** Dependency on AI Factory tools (any LLM), potential service disruptions
 - **Mitigation:**
+  - Model-agnostic approach (can switch LLMs)
   - Use multiple AI tools as backup
   - Maintain code ownership and documentation
   - Have fallback to manual development if needed
+  - Rules-based framework reduces model dependency
 
 **RISK-AI-003: Technical Lead Review Bottleneck**
 - **Impact:** Medium
@@ -453,7 +455,7 @@ The financing plan is fundamentally sound but needs updates to reflect the AI-fi
 
 ### 9.3 Next Steps
 
-1. **Update Financing Plan Document** (`1-ideas/1.2-initial-financing-plan.md`)
+1. **Update Financing Plan Document** (`1-ideas/initial-plans/1.2-initial-financing-plan.md`)
    - Apply all recommended changes
    - Ensure consistency across all sections
 

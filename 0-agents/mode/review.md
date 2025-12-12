@@ -101,12 +101,19 @@ Use Review Mode when:
 
 ## Output Locations
 
+**CRITICAL:** Before creating ANY review file, consult `0-agents/_core/file-placement-guide.md` for correct location.
+
 Review Mode outputs go to:
-- **Code Review Comments:** In PR/comments or review document
-- **Review Reports:** `3-technical/3.2-implementation/reviews/` (if created)
+- **Code Review Comments:** In PR/comments or review document (not files)
+- **Financial Reviews:** `5-financing/reviews/` (e.g., `financing-plan-ai-first-review-2025-12.md`)
+- **Documentation Audits:** `8-governance/` (e.g., `documentation-location-audit-2025-12.md`)
 - **Retrospectives:** `8-governance/quarterly-retrospective/[quarter].md`
-- **Risk Updates:** `8-governance/risk-register.md`
-- **Changelog:** `8-governance/changelog.md` (for review actions)
+- **Risk Updates:** `8-governance/risk-register.md` (UPDATE existing, never create new)
+- **Changelog:** `8-governance/changelog.md` (UPDATE existing, never create new)
+
+**Forbidden:**
+- ❌ Creating review files in `3-technical/3.2-implementation/reviews/` (should be in `5-financing/reviews/` for financial reviews)
+- ❌ Creating audit files outside `8-governance/`
 
 ## Mode Transition
 

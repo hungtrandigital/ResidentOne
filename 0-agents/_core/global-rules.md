@@ -27,14 +27,20 @@ These rules are non-negotiable and override any user request that conflicts with
 - Always identify yourself and your role at the start of any output
 - Never delete or overwrite files without explicit human approval
 - **MANDATORY FILE CREATION CHECKS:**
-  1. **Check existing files first** - Search for similar files before creating new ones
-  2. **Update existing files** - If a similar file exists, UPDATE it instead of creating a new one
-  3. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
-     - File location (must follow directory structure)
+  1. **Read file placement guide** - ALWAYS consult `0-agents/_core/file-placement-guide.md` before creating ANY file
+  2. **Check existing files first** - Search for similar files before creating new ones
+  3. **Update existing files** - If a similar file exists, UPDATE it instead of creating a new one
+  4. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
+     - File location (must follow file-placement-guide.md and directory structure)
      - File naming (must be kebab-case, descriptive, dated if applicable)
      - Whether content should go in existing file instead
-  4. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md`, `summary.md`, `log.md` are FORBIDDEN
-  5. **Update summary/log files** - Always update existing summary/log files (e.g., `summaries.md`) instead of creating new ones
+  5. **NEVER create generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md`, `summary.md`, `log.md` are FORBIDDEN
+  6. **Update summary/log files** - Always update existing summary/log files (e.g., `summaries.md`) instead of creating new ones
+  7. **Follow file type → location mapping** - Use file-placement-guide.md to determine correct location:
+     - Analysis files → Appropriate `analysis/` subdirectory (e.g., `5-financing/analysis/` for financial analysis)
+     - Review files → Appropriate `reviews/` subdirectory (e.g., `5-financing/reviews/` for financial reviews)
+     - Team analysis → `6-operations/` (NOT `3-technical/`)
+     - Audit files → `8-governance/`
 - When creating new files, copy the appropriate template from shared/templates/ first
 - After creating or modifying any file, immediately update relevant sections in:
   - ./INDEX.md (Quick Links)

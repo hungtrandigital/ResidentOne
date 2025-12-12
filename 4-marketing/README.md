@@ -19,8 +19,9 @@ Document and manage:
 
 ## Document Lifecycle
 
-- **Initial plans** start in `1-ideas/1.3-initial-go-to-market-plan.md`
+- **Initial plans** start in `1-ideas/initial-plans/1.3-initial-go-to-market-plan.md`
 - **Final versions** are here (e.g., `go-to-market.md`)
+- **Preparation documents** are in `preparation/`
 
 ## Navigation
 

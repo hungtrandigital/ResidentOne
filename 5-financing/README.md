@@ -1,0 +1,31 @@
+# 5-financing/ — Financing
+
+This directory contains financing plans, pitches, and financial projections.
+
+## Contents
+
+- **[plans.md](plans.md)** - Financing plans (final version)
+- **[pitches/](pitches/)** - Investor pitches and presentations
+- **[projections/](projections/)** - Financial projections and models
+
+## Purpose
+
+Document and manage:
+- Financing strategy and plans
+- Investor pitches
+- Financial projections and models
+
+## Document Lifecycle
+
+- **Initial plans** start in `1-ideas/1.2-initial-financing-plan.md`
+- **Final versions** are here (e.g., `plans.md`)
+
+## Navigation
+
+- **Ideas:** [../1-ideas/](../1-ideas/)
+- **Operations:** [../6-operations/](../6-operations/)
+
+---
+
+See [INDEX.md](../INDEX.md) for complete repository structure.
+

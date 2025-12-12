@@ -2,6 +2,47 @@
 
 This file tracks all changes to the project structure, documentation, and codebase.
 
+## 2025-12-12 — Startup Preparation Summary Renamed for Clarity
+
+### Summary
+- **Action:** Renamed startup-preparation-summary.md to startup-financial-preparation-summary.md
+- **Reason:** File name was misleading - it's primarily about financial preparation, not all preparation work
+- **Status:** ✅ Complete - File renamed and all references updated
+
+### Files Renamed
+- `5-financing/preparation/startup-preparation-summary.md` → `5-financing/preparation/startup-financial-preparation-summary.md`
+
+### Files Updated
+- `5-financing/preparation/README.md` - Updated file reference and description
+- `0-agents/_core/file-placement-guide.md` - Updated example to use new name
+- `5-financing/preparation/startup-financial-preparation-summary.md` - Updated title and purpose
+
+### Rationale
+The file focuses on financial preparation (equity, investment, pitching deck), not all preparation work. The new name makes this clear and avoids confusion with comprehensive preparation summaries.
+
+---
+
+## 2025-12-12 — Founder Agreement Moved to Legal Directory
+
+### Summary
+- **Action:** Moved founder agreement from financing/preparation to operations/legal
+- **Reason:** Founder agreement is a legal document, not a financial preparation document
+- **Status:** ✅ Complete - File moved to correct location
+
+### Files Moved
+- `5-financing/preparation/founder-agreement-outline.md` → `6-operations/legal/founder-agreement-outline.md`
+
+### Files Updated
+- `0-agents/_core/file-placement-guide.md` - Added clarification about legal documents
+- `5-financing/preparation/README.md` - Removed founder agreement reference, added note about legal docs
+- `6-operations/README.md` - Updated to mention founder agreements
+- `INDEX.md` - Updated file locations
+
+### Rationale
+Founder agreements are legal contracts between founders, not financial preparation documents. They belong in `6-operations/legal/` alongside other legal documents like employment contracts.
+
+---
+
 ## 2025-12-12 — File Placement Guide Created & Agents Updated
 
 ### Summary

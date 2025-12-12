@@ -1,12 +1,14 @@
-# Startup Preparation Summary
+# Startup Financial Preparation Summary
 
 **Date:** 2025-12-12  
 **Last Updated:** 2025-12-12  
-**Status:** Comprehensive Preparation Guide
+**Status:** Comprehensive Financial Preparation Guide
 
 ## Purpose
 
-This document summarizes all preparation work for ResidentOne startup launch, including equity structure, initial investment, pitching deck, and founder agreements.
+This document summarizes all **financial preparation work** for ResidentOne startup launch, including equity structure, initial investment, and pitching deck.
+
+**Note:** Founder agreement is a legal document and is located in `6-operations/legal/founder-agreement-outline.md`.
 
 ---
 
@@ -266,7 +268,7 @@ This document summarizes all preparation work for ResidentOne startup launch, in
    - Content guidelines
    - Design recommendations
 
-3. **Founder Agreement Outline** (`5-financing/founder-agreement-outline.md`)
+3. **Founder Agreement Outline** (`6-operations/legal/founder-agreement-outline.md`)
    - Key terms and clauses
    - Legal framework
    - Decision points

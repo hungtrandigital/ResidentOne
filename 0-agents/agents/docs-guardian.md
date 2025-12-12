@@ -81,6 +81,7 @@ Ensure the repository ALWAYS reflects current reality:
 ### 4. Structure Enforcement
 
 **Violation Detection:**
+- **Run file placement audit** - Execute `8-governance/scripts/file-placement-audit.sh` to scan for violations
 - Files created outside allowed structure
 - Files in wrong directories (check `0-agents/_core/file-placement-guide.md`)
 - Naming convention violations

@@ -119,9 +119,8 @@ market/
 │   │   └── onboarding-strategy-analysis.md
 │   ├── preparation/
 │   │   ├── README.md
-│   │   ├── founder-agreement-outline.md
 │   │   ├── pitching-deck-outline.md
-│   │   └── startup-preparation-summary.md
+│   │   └── startup-financial-preparation-summary.md
 │   ├── reviews/
 │   │   └── financing-plan-ai-first-review-2025-12.md
 │   ├── pitches/
@@ -132,6 +131,7 @@ market/
 │   ├── team-structure-analysis.md
 │   ├── team-gaps-analysis.md
 │   ├── legal/
+│   │   └── founder-agreement-outline.md
 │   ├── hr/
 │   └── vendor-contracts/
 ├── 7-operations-monitoring/

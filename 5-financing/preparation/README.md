@@ -4,18 +4,17 @@ This directory contains startup preparation documents.
 
 ## Contents
 
-- **[founder-agreement-outline.md](founder-agreement-outline.md)** - Founder agreement key terms and structure
 - **[pitching-deck-outline.md](pitching-deck-outline.md)** - Pitching deck structure and content outline
-- **[startup-preparation-summary.md](startup-preparation-summary.md)** - Comprehensive startup preparation summary
+- **[startup-financial-preparation-summary.md](startup-financial-preparation-summary.md)** - Comprehensive financial preparation summary (equity, investment, pitching deck)
 
 ## Purpose
 
 Documents for:
-- Legal preparation (founder agreements)
 - Investor presentations (pitching deck)
 - Startup launch preparation
+
+**Note:** Legal documents (e.g., founder agreements) are in `6-operations/legal/`, not here.
 
 ---
 
 See [../README.md](../README.md) for more information.
-

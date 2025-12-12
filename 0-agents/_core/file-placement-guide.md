@@ -139,7 +139,7 @@ Before creating ANY file, agents MUST:
 | Team Structure | `6-operations/` | `team-structure.md` | Main team structure doc |
 | Team Analysis | `6-operations/` | `team-structure-analysis.md` | Team structure analysis |
 | Team Gaps Analysis | `6-operations/` | `team-gaps-analysis.md` | Team gaps and hiring needs |
-| Legal Documents | `6-operations/legal/` | Various | Legal contracts, agreements |
+| Legal Documents | `6-operations/legal/` | Various | Legal contracts, agreements (founder agreements, employment contracts, etc.) |
 | HR Policies | `6-operations/hr/` | Various | HR policies and procedures |
 | Vendor Contracts | `6-operations/vendor-contracts/` | Various | Vendor agreements |
 
@@ -219,9 +219,10 @@ Before creating ANY file, agents MUST:
 
 **Rule:** Preparation files go to the appropriate `preparation/` subdirectory:
 
-- **Financial Preparation** → `5-financing/preparation/`
+- **Financial Preparation** → `5-financing/preparation/` (e.g., pitching deck outlines, startup financial preparation summaries)
 - **Marketing Preparation** → `4-marketing/preparation/`
 - **Architecture Preparation** → `3-technical/3.1-system-foundation/` (as `architecture-preparation-plan.md`)
+- **Legal Documents** → `6-operations/legal/` (e.g., founder agreements, employment contracts, NOT in financing/preparation)
 
 ### Audit Files
 

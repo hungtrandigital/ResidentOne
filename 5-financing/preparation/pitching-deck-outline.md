@@ -197,23 +197,30 @@ This document outlines the structure for ResidentOne pitching deck, suitable for
   - ✅ Product roadmap defined
   - ✅ Team assembled (founders + technical lead)
   - ✅ Market research completed
+  - ✅ Financial model validated (framework-based, risk-adjusted)
 - **Next 6 Months:**
   - 🎯 Launch revamped platform
   - 🎯 5-10 pilot buildings
   - 🎯 1,000+ active users
-  - 🎯 Break-even (Month 7-8)
+  - 🎯 Validate key assumptions (CAC, churn, conversion)
 - **Next 12 Months:**
-  - 🎯 20-50 buildings
+  - 🎯 25-35 buildings
   - 🎯 10,000+ active users
-  - 🎯 VND 1.6B+ revenue
-  - 🎯 Profitable operations
+  - 🎯 VND 1.02B revenue (expected)
+  - 🎯 Break-even (Month 15.2, expected)
+- **Next 24 Months:**
+  - 🎯 50-80 buildings
+  - 🎯 50,000+ active users
+  - 🎯 VND 3.6B revenue (expected)
+  - 🎯 Profitable operations (Year 2)
 
 **Visuals:**
-- Timeline with milestones
-- Growth projections
-- Key metrics
+- Timeline with milestones and probabilities
+- Growth projections (buildings, users, revenue)
+- Key metrics dashboard
+- Validation milestones
 
-**Key Message:** Clear progress and ambitious but achievable goals
+**Key Message:** Clear progress and ambitious but achievable goals with validated financial model
 
 ---
 
@@ -250,54 +257,68 @@ This document outlines the structure for ResidentOne pitching deck, suitable for
 
 ### Slide 11: Financial Projections
 **Content:**
-- **Year 1:**
-  - Revenue: VND 1.62B
-  - Costs: VND 1.69B (including loss leader)
-  - Net: -VND 70M (break-even Month 7-8)
-- **Year 2:**
-  - Revenue: VND 9.3B
-  - Costs: VND 5.56B
-  - Net: +VND 3.74B
+- **Expected Revenue (Risk-Adjusted):**
+  - Year 1: VND 1.02B
+  - Year 2: VND 3.6B (253% YoY growth)
+  - Year 3: VND 7.2B (100% YoY growth)
+- **Expected Profitability:**
+  - Year 1: -VND 730M (expected loss)
+  - Year 2: Break-even (Month 15.2)
+  - Year 3: VND 1.8B profit (25% margin)
+- **Key Metrics:**
+  - LTV/CAC: 10.34× (excellent)
+  - Payback: 2.4 months (excellent)
+  - Gross Margin: 52%
+  - Magic Number: 2.4-9.6× (very efficient)
 - **Key Assumptions:**
-  - 50 buildings by end of Year 1
-  - 100 buildings by end of Year 2
+  - 25-35 buildings by end of Year 1
+  - 50-80 buildings by end of Year 2
+  - 80-120 buildings by end of Year 3
   - Freemium model (30% free, 70% paid)
   - Leverage existing resources (minimal cash burn)
 
 **Visuals:**
-- Financial projections chart
-- Revenue breakdown
+- Financial projections chart (3-year)
+- Revenue breakdown by scenario
 - Cost structure
-- Unit economics
+- Unit economics dashboard
+- Break-even timeline
+- Key metrics summary
 
-**Key Message:** Path to profitability with strong unit economics
+**Key Message:** Path to profitability with excellent unit economics and strong growth trajectory
 
 ---
 
 ### Slide 12: Funding Ask
 **Content:**
-- **Amount:** VND 500M-1B
+- **Amount:** VND 1B (recommended with buffer)
+  - Expected: VND 934M (risk-adjusted)
+  - Range: VND 500M - VND 1.17B (scenarios)
 - **Use of Funds:**
-  - Infrastructure: VND 45M/year (core hub)
-  - Variable costs: VND 231M/year (9 buildings average)
-  - Team: VND 0-342M/year (leverage existing resources)
-  - Loss leader: VND 144M (first 3 months free)
-  - Buffer: VND 80-280M (unexpected costs)
+  - Infrastructure: VND 490M (Year 1, 28%)
+  - Operational: VND 630M (Year 1, 36%)
+  - Team: VND 360M (Year 1, 21%)
+  - Sales & Marketing: VND 200M (Year 1, 11%)
+  - Tools & Software: VND 50M (Year 1, 3%)
+  - Buffer: VND 70M (Year 1, 4%)
 - **Milestones:**
   - 5-10 pilot buildings (Month 6)
-  - Break-even (Month 7-8)
-  - 20-50 buildings (Month 12)
+  - Break-even (Month 15.2, expected)
+  - 25-35 buildings (Month 12)
+  - Profitable (Year 3)
 - **Exit Strategy:**
-  - Strategic acquisition (real estate tech companies)
-  - IPO (long-term)
-  - Secondary market (if available)
+  - Strategic acquisition: 5-10× revenue (3-5 years)
+  - IPO: 8-15× revenue (5-7 years)
+  - Secondary market: 3-5× revenue (3-5 years)
+  - Expected investor returns: 7.2× MOI (strategic acquisition, realistic scenario)
 
 **Visuals:**
-- Use of funds breakdown
-- Milestone timeline
-- Exit scenarios
+- Use of funds breakdown (pie chart)
+- Milestone timeline with probabilities
+- Exit scenarios with valuation multiples
+- Investor returns (MOI, IRR)
 
-**Key Message:** Clear funding needs with specific use cases and milestones
+**Key Message:** Clear funding needs with specific use cases, milestones, and attractive exit potential
 
 ---
 

@@ -93,9 +93,13 @@ This file contains summaries of all feature ideas and their analysis.
 - Strong community building from day one
 - Word-of-mouth momentum
 
-**Cost:** VND 2-5M per building (average VND 3.5M)
+**Cost:** VND 35-40M per building (average VND 37.5M, based on real experience)
 
-**ROI:** Positive - Faster critical mass and better retention justify cost. Break-even: 2 months acceleration = VND 11.2M additional revenue vs. VND 3.5M cost = VND 7.7M net benefit.
+**Actual Results:**
+- Launch day: 40 sellers + ~100 residents registered
+- Month 1: 60 sellers (50% growth) + 400 residents (300% growth)
+
+**ROI:** Positive - Much faster critical mass and 2.5-4× better growth justify cost. Break-even: 6.7-8.3 months, but benefits continue beyond break-even. Actual results show 2.5× seller growth and 4× resident growth in first month.
 
 **Risks:**
 - Low attendance (mitigation: strong promotion, incentives)

@@ -148,38 +148,48 @@
 
 ### 3.1 Cost Structure
 
-**One-Time Cost Per Building: VND 2-5M**
+**One-Time Cost Per Building: VND 35-40M** (based on real experience)
 
-**Cost Breakdown:**
-1. **Event Venue** (VND 0.5-2M)
-   - Building common area (preferred, low cost)
-   - External venue (if needed, higher cost)
-   - Setup and cleanup
+**Cost Breakdown (Actual):**
+1. **Venue & Setup** (VND 8-12M)
+   - Table & chair rental: VND 3-5M
+   - Backdrop/banner production: VND 2-3M
+   - Sound system rental (if needed): VND 1-2M
+   - Decoration & setup: VND 2-2M
 
-2. **Marketing Materials** (VND 0.3-0.5M)
-   - Flyers and posters
-   - Banners and signage
-   - Platform demo materials
+2. **Marketing Materials** (VND 3-5M)
+   - Flyers and posters: VND 1-1.5M
+   - Banners and signage: VND 1-2M
+   - Platform demo materials: VND 0.5-1M
+   - Registration materials: VND 0.5-0.5M
 
-3. **Event Support** (VND 0.5-1M)
-   - Event coordinator time
-   - Platform team support
-   - Onboarding support staff
+3. **Gifts & Incentives** (VND 15-18M) ⭐ **KEY COST DRIVER**
+   - Participant gifts: VND 10-12M (100-150 participants × VND 80K-100K average)
+   - Early adopter rewards: VND 3-4M (for first 20-30 sellers)
+   - Lucky draw prizes: VND 2-2M (optional but recommended)
 
-4. **Refreshments** (VND 0.2-0.5M)
-   - Light refreshments (optional but recommended)
-   - Creates welcoming atmosphere
+4. **Refreshments** (VND 3-5M)
+   - Light refreshments (snacks, drinks): VND 2-3M
+   - Optional: Simple meal (if evening event): VND 1-2M
 
-5. **Technology Setup** (VND 0.2-0.5M)
-   - Projector/screen for demo
-   - WiFi setup
-   - Registration tablets/devices
+5. **Event Support** (VND 3-4M)
+   - Event coordinator time: VND 1-1.5M
+   - Platform team support: VND 1-1.5M
+   - Onboarding support staff: VND 1-1M
 
-6. **Contingency** (VND 0.3-1M)
+6. **Technology Setup** (VND 2-3M)
+   - Projector/screen rental: VND 0.5-1M
+   - WiFi setup/booster: VND 0.5-1M
+   - Registration tablets/devices: VND 0.5-0.5M
+   - Backup equipment: VND 0.5-0.5M
+
+7. **Contingency** (VND 1-2M)
    - Unexpected costs
    - Buffer for variations
 
-**Total Cost:** VND 2-5M per building (average VND 3.5M)
+**Total Cost:** VND 35-40M per building (average VND 37.5M)
+
+**Note:** Gifts & Incentives (VND 15-18M) is the largest cost component, but critical for attendance and engagement. Actual experience shows this investment drives strong results: 40 sellers + 100 residents on launch day, growing to 60 sellers + 400 residents after 1 month.
 
 ---
 
@@ -555,7 +565,7 @@ Launching Day event is a **strongly recommended** addition to the onboarding pro
 - Word-of-mouth momentum
 
 **Key Costs:**
-- VND 2-5M per building (average VND 3.5M)
+- VND 35-40M per building (average VND 37.5M, based on real experience)
 - Coordination effort with BQL/BQT
 - Event planning and execution time
 

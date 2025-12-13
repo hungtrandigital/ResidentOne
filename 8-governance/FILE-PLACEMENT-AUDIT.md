@@ -13,7 +13,7 @@ Run the audit script:
 The script will:
 1. Scan entire repository
 2. Check file locations against `file-placement-guide.md`
-3. Generate audit report: `8-governance/file-placement-audit-YYYY-MM-DD.md`
+3. Generate audit report: `8-governance/audits/file-placement/file-placement-audit-YYYY-MM-DD.md`
 4. Show summary of violations and warnings
 
 ## When to Run Audit
@@ -78,7 +78,7 @@ The script will:
 ./8-governance/scripts/file-placement-audit.sh
 
 # 2. Review report
-cat 8-governance/file-placement-audit-2025-12-12.md
+cat 8-governance/audits/file-placement/file-placement-audit-2025-12-12.md
 
 # 3. Fix violations (example)
 git mv 3-technical/team-analysis.md 6-operations/team-analysis.md

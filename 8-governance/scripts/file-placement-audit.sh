@@ -7,7 +7,7 @@
 set -e
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-AUDIT_REPORT="$REPO_ROOT/8-governance/file-placement-audit-$(date +%Y-%m-%d).md"
+AUDIT_REPORT="$REPO_ROOT/8-governance/audits/file-placement/file-placement-audit-$(date +%Y-%m-%d).md"
 VIOLATIONS=0
 WARNINGS=0
 

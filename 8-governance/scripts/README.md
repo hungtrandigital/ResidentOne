@@ -23,7 +23,7 @@ This directory contains scripts for governance and maintenance tasks.
 - Files in `3-technical/3.2-implementation/` that should be elsewhere
 
 **Output:**
-- Creates audit report: `8-governance/file-placement-audit-YYYY-MM-DD.md`
+- Creates audit report: `8-governance/audits/file-placement/file-placement-audit-YYYY-MM-DD.md`
 - Shows violations and warnings
 - Provides recommendations for fixes
 

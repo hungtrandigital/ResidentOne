@@ -119,8 +119,8 @@ The documentation audit system is **well-designed and functional**, with both au
 ### 1.4 Audit Reports ✅
 
 **Files:**
-- `8-governance/file-placement-audit-2025-12-12.md`
-- `8-governance/file-placement-audit-2025-12-13.md`
+- `8-governance/audits/file-placement/file-placement-audit-2025-12-12.md`
+- `8-governance/audits/file-placement/file-placement-audit-2025-12-13.md`
 
 **Status:** ✅ **WELL-FORMATTED**
 

@@ -12,8 +12,12 @@ This directory contains project governance documentation: versions, changelog, d
 - **[quarterly-retrospective/](quarterly-retrospective/)** - Quarterly retrospectives
 - **[FILE-PLACEMENT-AUDIT.md](FILE-PLACEMENT-AUDIT.md)** - File placement audit guide
 - **[scripts/](scripts/)** - Governance scripts (file placement audit, etc.)
+- **[audits/](audits/)** - All audit reports organized by type
+  - `file-placement/` - File placement audits
+  - `documentation/` - Documentation audits
+  - `placement/` - Placement audits (specific topics)
 - **[reviews/](reviews/)** - Review documents and audit reviews
-- **Audit Reports:** File placement audits and documentation audits (e.g., `file-placement-audit-*.md`, `placement-audit-*.md`)
+- **[assessments/](assessments/)** - Project assessments and evaluations
 
 ## Purpose
 

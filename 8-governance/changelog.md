@@ -434,7 +434,7 @@ Original financial projections contained unrealistic assumptions (CAC, LTV/CAC r
 - `8-governance/reviews/documentation-audit-review-2025-12.md` - Comprehensive audit system review
 
 ### Files Updated
-- `8-governance/file-placement-audit-2025-12-13.md` - Latest audit report (0 violations, 0 warnings)
+- `8-governance/audits/file-placement/file-placement-audit-2025-12-13.md` - Latest audit report (0 violations, 0 warnings)
 
 ---
 

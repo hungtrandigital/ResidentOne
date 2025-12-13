@@ -1,14 +1,28 @@
 # 6-operations/ — Operations
 
-This directory contains operational documentation: team structure, legal, HR, and vendor contracts.
+This directory contains operational documentation: team structure, processes, legal, HR, and vendor contracts.
 
 ## Contents
 
-- **[team-structure.md](team-structure.md)** - Team structure and organization
-- **[team-structure-analysis.md](team-structure-analysis.md)** - Team structure analysis and resource mapping
-- **[team-gaps-analysis.md](team-gaps-analysis.md)** - Team gaps analysis and hiring recommendations
+### Team
+- **[team/](team/)** - Team structure, analysis, planning, and reviews
+  - Team structure definitions and organization charts
+  - Job descriptions (JD) and position requirements
+  - Team analysis and gap identification
+  - Feasibility reviews and assessments
+
+### Processes
+- **[processes/](processes/)** - Operational processes and templates
+  - Building onboarding process
+  - Event templates and checklists
+
+### Legal
 - **[legal/](legal/)** - Legal documents and contracts (founder agreements, employment contracts, etc.)
+
+### HR
 - **[hr/](hr/)** - HR policies and procedures
+
+### Vendor Contracts
 - **[vendor-contracts/](vendor-contracts/)** - Vendor contracts and agreements
 
 ## Purpose

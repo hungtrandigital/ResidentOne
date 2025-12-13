@@ -970,7 +970,7 @@ Board / Co-Founders
    - Prepare job postings if needed
 
 3. **Update Team Structure Document:**
-   - Keep `6-operations/team-structure.md` updated
+   - Keep `6-operations/team/team-structure.md` updated
    - Document actual hires and changes
    - Track team growth and evolution
 

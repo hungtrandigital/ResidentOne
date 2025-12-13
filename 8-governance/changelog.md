@@ -8,9 +8,9 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ### Summary
 - **Action:** Created comprehensive Launching Day event template and checklist based on real experience
-- **Created:** `6-operations/launching-day-event-template-2025-12.md` - Event template with planning checklist
+- **Created:** `6-operations/processes/launching-day-event-template-2025-12.md` - Event template with planning checklist
 - **Updated:** `1-ideas/1.4-feature-ideas/feature-launching-day-event.md` - Updated with actual cost and results
-- **Updated:** `6-operations/building-onboarding-process-2025-12.md` - Updated with Launching Day costs
+- **Updated:** `6-operations/processes/building-onboarding-process-2025-12.md` - Updated with Launching Day costs
 - **Status:** ✅ Complete - Ready for pilot
 
 ### Key Updates
@@ -57,8 +57,8 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ### Summary
 - **Action:** Created comprehensive team structure plan with detailed job descriptions, scope definitions, and organization structure
-- **Created:** `6-operations/team-structure-plan-2025-12.md` - Comprehensive team structure plan
-- **Updated:** `6-operations/team-structure.md` - Quick reference and links to detailed documents
+- **Created:** `6-operations/team/team-structure-plan-2025-12.md` - Comprehensive team structure plan
+- **Updated:** `6-operations/team/team-structure.md` - Quick reference and links to detailed documents
 - **Status:** ✅ Complete - Ready for hiring execution
 
 ### Key Components
@@ -118,7 +118,7 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ### Summary
 - **Action:** Comprehensive review of team structure to ensure plan is executable
-- **Created:** `6-operations/team-structure-feasibility-review-2025-12.md` - Team structure feasibility assessment
+- **Created:** `6-operations/team/team-structure-feasibility-review-2025-12.md` - Team structure feasibility assessment
 - **Status:** ✅ Complete - Feasible with minor gaps
 
 ### Key Findings

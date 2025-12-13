@@ -10,9 +10,9 @@
 ## Review Summary
 
 **Files Reviewed:**
-- `6-operations/team-structure-plan-2025-12.md` - Comprehensive team structure plan
-- `6-operations/team-structure-feasibility-review-2025-12.md` - Feasibility assessment
-- `6-operations/team-structure-analysis.md` - Initial team structure analysis
+- `6-operations/team/team-structure-plan-2025-12.md` - Comprehensive team structure plan
+- `6-operations/team/team-structure-feasibility-review-2025-12.md` - Feasibility assessment
+- `6-operations/team/team-structure-analysis.md` - Initial team structure analysis
 - `6-operations/team-gaps-analysis.md` - Team gaps analysis
 - `5-financing/plans.md` - Financing plan (team costs section)
 

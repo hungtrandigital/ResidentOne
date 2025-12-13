@@ -127,10 +127,20 @@ market/
 │   └── projections/
 ├── 6-operations/
 │   ├── README.md
-│   ├── team-structure.md
-│   ├── team-structure-analysis.md
-│   ├── team-gaps-analysis.md
+│   ├── team/
+│   │   ├── README.md
+│   │   ├── team-structure.md
+│   │   ├── team-structure-analysis.md
+│   │   ├── team-structure-plan-2025-12.md
+│   │   ├── team-structure-feasibility-review-2025-12.md
+│   │   ├── team-gaps-analysis.md
+│   │   └── team-structure-review-2025-12.md
+│   ├── processes/
+│   │   ├── README.md
+│   │   ├── building-onboarding-process-2025-12.md
+│   │   └── launching-day-event-template-2025-12.md
 │   ├── legal/
+│   │   ├── README.md
 │   │   └── founder-agreement-outline.md
 │   ├── hr/
 │   └── vendor-contracts/

@@ -54,6 +54,12 @@ These rules are non-negotiable and override any user request that conflicts with
 - Use Mermaid diagrams for architecture, flowcharts, and sequences
 - Use tables for comparisons, pricing, competitor analysis
 - All monetary amounts in USD unless explicitly stated otherwise
+- **Language Usage:** All documentation should be in English. Vietnamese terms may be used when:
+  - There is no direct English equivalent
+  - The term is a proper noun (building names, company names)
+  - The term is commonly used in Vietnamese business context
+- **Vietnamese Terms Format:** First use: "Vietnamese Term (English Translation)" - e.g., "BQL (Building Management Board)"
+- **Standardized Terms:** Consult `shared/terminology.md` for standardized terminology (BQL, BQT, building segments, etc.)
 
 ## 6. Security & Privacy
 - Never commit secrets, API keys, passwords

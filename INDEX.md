@@ -145,9 +145,11 @@ market/
 │   ├── changelog.md
 │   ├── decision-log.md
 │   ├── risk-register.md
+│   ├── success-probability-assessment-2025-12.md
 │   └── quarterly-retrospective/
 ├── shared/
 │   ├── README.md
+│   ├── terminology.md
 │   ├── templates/
 │   └── assets/
 └── archives/

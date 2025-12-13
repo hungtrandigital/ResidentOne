@@ -2,6 +2,75 @@
 
 This file tracks all changes to the project structure, documentation, and codebase.
 
+## 2025-12-12 — Success Probability Assessment Created
+
+### Summary
+- **Action:** Created comprehensive success probability assessment using multi-dimensional scoring matrix
+- **Created:** `8-governance/success-probability-assessment-2025-12.md` - Detailed success probability analysis
+- **Status:** ✅ Complete - Success probability assessed at 73-78%
+
+### Files Created
+- `8-governance/success-probability-assessment-2025-12.md` - Comprehensive assessment with:
+  - 8-dimensional scoring matrix (weighted)
+  - Scenario analysis (best case, base case, worst case)
+  - Critical success factors identification
+  - Recommendations to increase success probability
+  - Success metrics and milestones
+
+### Assessment Results
+- **Overall Success Probability:** 73-78%
+- **Base Case:** 70-75%
+- **Best Case:** 85-90%
+- **Worst Case:** 40-50%
+
+### Key Findings
+- **Strengths:** Market opportunity (8.0/10), Product-market fit (7.4/10), Team (7.5/10), Financial (7.8/10)
+- **Weaknesses:** Competitive advantage (6.6/10), Risk management (6.8/10), Technical feasibility (7.0/10)
+- **Critical Success Factors:** User adoption, BQT/BQL relationships, technical execution, competitive response
+
+### Files Updated
+- `8-governance/README.md` - Added success probability assessment reference
+- `INDEX.md` - Added success probability assessment to governance directory
+
+---
+
+## 2025-12-12 — Terminology Guide Created for Language Standardization
+
+### Summary
+- **Action:** Created comprehensive terminology guide to standardize Vietnamese/English usage
+- **Created:** `shared/terminology.md` - Standardized terms and language usage rules
+- **Updated:** Global rules to reference terminology guide
+- **Status:** ✅ Complete - Language usage guidelines established
+
+### Files Created
+- `shared/terminology.md` - Comprehensive terminology guide with:
+  - Language usage rules (English primary, Vietnamese with translations)
+  - Standardized terms (BQL, BQT, building segments, etc.)
+  - Abbreviation guidelines
+  - Currency and number formats
+  - Document-specific guidelines
+  - Consistency checklist
+
+### Files Updated
+- `0-agents/_core/global-rules.md` - Added language usage rules and terminology reference
+- `shared/README.md` - Added terminology.md reference
+- `INDEX.md` - Added terminology.md to shared directory
+
+### Standardized Terms
+- **BQL** - Building Management Board (Ban Quản Lý)
+- **BQT** - Building Management Committee (Ban Quản Trị)
+- **Building Segments:** Social Housing, Affordable, Mid-range, High-end
+- **User Types:** Resident, Renter, Tenant
+
+### Rationale
+Documents were mixing Vietnamese and English inconsistently (e.g., "Trung cấp", "BQL", "BQT"). The terminology guide ensures:
+- Consistent language usage across all documentation
+- Clear translations for Vietnamese terms
+- Standardized abbreviations and formats
+- Better readability for international audiences
+
+---
+
 ## 2025-12-12 — Startup Preparation Summary Renamed for Clarity
 
 ### Summary

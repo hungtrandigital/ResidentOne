@@ -8,6 +8,7 @@ This directory contains project governance documentation: versions, changelog, d
 - **[changelog.md](changelog.md)** - Project changelog
 - **[decision-log.md](decision-log.md)** - Architectural decision log (ADR format)
 - **[risk-register.md](risk-register.md)** - Risk register and mitigation plans
+- **[success-probability-assessment-2025-12.md](success-probability-assessment-2025-12.md)** - Success probability assessment and analysis
 - **[quarterly-retrospective/](quarterly-retrospective/)** - Quarterly retrospectives
 - **[FILE-PLACEMENT-AUDIT.md](FILE-PLACEMENT-AUDIT.md)** - File placement audit guide
 - **[scripts/](scripts/)** - Governance scripts (file placement audit, etc.)

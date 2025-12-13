@@ -1,18 +1,20 @@
 # shared/ — Shared Resources
 
-This directory contains shared templates and assets used across the project.
+This directory contains shared templates, assets, terminology guide, and resources used across the project.
 
 ## Contents
 
+- **[terminology.md](terminology.md)** - Terminology guide for standardized language usage (Vietnamese/English)
 - **[templates/](templates/)** - Document templates and frameworks
 - **[assets/](assets/)** - Shared assets (images, fonts, etc.)
 
 ## Purpose
 
 Store reusable resources:
-- Document templates
-- Design assets
-- Shared resources
+- **Terminology guide** - Standardized terms and language usage rules
+- **Document templates** - Reusable document templates
+- **Design assets** - Shared design assets
+- **Shared resources** - Other shared resources
 
 ## Navigation
 
@@ -21,4 +23,3 @@ Store reusable resources:
 ---
 
 See [INDEX.md](../INDEX.md) for complete repository structure.
-

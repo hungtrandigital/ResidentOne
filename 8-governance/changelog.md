@@ -4,6 +4,67 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ---
 
+## 2025-12-13 — Comprehensive Team Structure Plan
+
+### Summary
+- **Action:** Created comprehensive team structure plan with detailed job descriptions, scope definitions, and organization structure
+- **Created:** `6-operations/team-structure-plan-2025-12.md` - Comprehensive team structure plan
+- **Updated:** `6-operations/team-structure.md` - Quick reference and links to detailed documents
+- **Status:** ✅ Complete - Ready for hiring execution
+
+### Key Components
+
+**Team Scope Definitions:**
+- Technical Team: Platform development, architecture, infrastructure
+- Product Team: Product vision, strategy, requirements
+- Marketing Team: Marketing strategy, GTM, brand positioning
+- Finance & Strategy Team: Financial planning, business strategy
+- Operations Team: Building onboarding, customer success, support
+- Sales Team: Building acquisition, sales, relationship management
+
+**Job Descriptions (JD):**
+- Core Team Positions: Product Lead, Technical Lead, Finance & Strategy Lead, Marketing Strategy Lead
+- Execution Team Positions: Building Onboarding Specialist, Customer Support, Sales Team, Additional Onboarding Team, Operations Manager, Data Analyst
+- Support Team Positions: WEBASEGROUP Tech Team, 8Agency Marketing Team
+- Each JD includes: Responsibilities, Required Skills, Required Experience, Success Metrics
+
+**Organization Structure:**
+- Phase 1 (Months 1-6): Flat structure with Product Lead as coordinator
+- Phase 2 (Months 7-12): Sales Team and Additional Onboarding Team added
+- Phase 3 (Months 13-18): Operations Manager added to coordinate operations
+
+**Position Levels:**
+- Leadership Level: 5+ years experience, strategic thinking, decision-making authority
+- Specialist Level: 2-3+ years experience, domain expertise, execution capability
+- Support Level: 1-2+ years experience, technical or creative skills
+
+**Compensation Structure:**
+- Equity-Only: Founders/Co-Founders (VND 0M/month)
+- Equity + Existing Company Coverage: Technical Lead, Support Teams (VND 0M/month)
+- Equity-Based Invitations: Preferred for early positions (Building Onboarding, Customer Support)
+- Salary Positions: Base salary VND 10-30M/month + commission for sales
+
+**Hiring Timeline:**
+- Phase 1: Building Onboarding Specialist (Month 3-4), Customer Support (Month 4-5)
+- Phase 2: Sales Team (Month 7-8), Additional Onboarding Team (Month 7-8)
+- Phase 3: Operations Manager (Month 13-14), Additional Sales (Month 13-14), Data Analyst (Month 15-16, optional)
+
+### Quality Metrics
+
+**Team Structure Success:**
+- ✅ All positions have clear job descriptions
+- ✅ All teams have defined scope and responsibilities
+- ✅ Reporting structure is clear and documented
+- ✅ Compensation structure is competitive and sustainable
+
+**Coverage Metrics:**
+- ✅ All critical functions are covered
+- ✅ Support teams provide adequate coverage
+- ✅ Team structure scales with business growth
+- ✅ Hiring timeline aligns with business needs
+
+---
+
 ## 2025-12-13 — Team Structure Feasibility Review
 
 ### Summary

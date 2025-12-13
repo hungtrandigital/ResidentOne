@@ -166,8 +166,17 @@ market/
 │   ├── changelog.md
 │   ├── decision-log.md
 │   ├── risk-register.md
-│   ├── success-probability-assessment-2025-12.md
-│   └── quarterly-retrospective/
+│   ├── FILE-PLACEMENT-AUDIT.md
+│   ├── audits/
+│   │   ├── README.md
+│   │   ├── file-placement/
+│   │   ├── documentation/
+│   │   └── placement/
+│   ├── assessments/
+│   │   └── success-probability-assessment-2025-12.md
+│   ├── reviews/
+│   ├── quarterly-retrospective/
+│   └── scripts/
 ├── shared/
 │   ├── README.md
 │   ├── terminology.md

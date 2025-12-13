@@ -9,6 +9,7 @@ Placement audits verify that files in specific directories or topics are correct
 ## Audit Reports
 
 - `placement-audit-1-ideas-2025-12-13.md` - Placement audit for 1-ideas directory
+- `placement-verification-8-governance-2025-12-13.md` - Placement verification for 8-governance directory
 
 ## When to Create Placement Audits
 

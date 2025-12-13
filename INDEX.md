@@ -35,21 +35,32 @@ market/
 │   └── workflows/
 ├── 1-ideas/
 │   ├── README.md
+│   ├── summaries.md
 │   ├── 1.1-market-research/
 │   │   ├── README.md
 │   │   ├── reports/
 │   │   ├── summaries.md
 │   │   ├── templates/
 │   │   └── resources/
-│   ├── initial-plans/
+│   ├── marketing/
 │   │   ├── README.md
-│   │   ├── 1.2-initial-financing-plan.md
 │   │   └── 1.3-initial-go-to-market-plan.md
-│   ├── executive-docs/
+│   ├── technical/
 │   │   ├── README.md
-│   │   ├── EXECUTIVE-SUMMARY.md
-│   │   └── business-case-building-marketplace.md
-│   └── 1.4-feature-ideas/
+│   │   └── feature-microservices-architecture-vps-2025-12.md
+│   ├── operations/
+│   │   ├── README.md
+│   │   ├── feature-launching-day-event.md
+│   │   └── feature-zalo-content-automation-2025-12.md
+│   ├── finance/
+│   │   ├── README.md
+│   │   └── 1.2-initial-financing-plan.md
+│   ├── product/
+│   │   └── README.md
+│   └── executive-docs/
+│       ├── README.md
+│       ├── EXECUTIVE-SUMMARY.md
+│       └── business-case-building-marketplace.md
 ├── 2-product-foundation/
 │   ├── README.md
 │   ├── 2.1-product-overview.md
@@ -183,10 +194,10 @@ market/
 - **Financial docs:** `5-financing/`
 
 ### Initial vs Final Documents
-- **Initial plans** live in `1-ideas/initial-plans/` (e.g., `1.2-initial-financing-plan.md`)
+- **Initial plans** live in `1-ideas/[department]/` (e.g., `finance/1.2-initial-financing-plan.md`, `marketing/1.3-initial-go-to-market-plan.md`)
 - **Final versions** move to proper sections:
-  - `initial-plans/1.2-initial-financing-plan.md` → `5-financing/plans.md`
-  - `initial-plans/1.3-initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
+  - `finance/1.2-initial-financing-plan.md` → `5-financing/plans.md`
+  - `marketing/1.3-initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
 - When moving, leave a Markdown link pointing to the new location
 
 ## Naming Conventions

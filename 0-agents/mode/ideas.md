@@ -119,10 +119,10 @@ Use Ideas Mode when:
 - **Business Cases:** Create business case documents in `1-ideas/business-case-[product-name].md`
 
 #### For Feature Ideas:
-- **Feature Ideas:** Document feature ideas in `1-ideas/1.4-feature-ideas/feature-[feature-name].md`
-- **Feature Analysis:** Create analysis documents in `1-ideas/1.4-feature-ideas/analysis/`
-- **Feature Summaries:** Maintain feature ideas summary in `1-ideas/1.4-feature-ideas/summaries.md`
-- **Business Cases:** Create feature business case in `1-ideas/1.4-feature-ideas/business-case-[feature-name].md`
+- **Feature Ideas:** Document feature ideas in `1-ideas/[department]/feature-[feature-name].md` (e.g., `technical/`, `operations/`, `marketing/`, `product/`)
+- **Feature Analysis:** Create analysis documents in `1-ideas/[department]/analysis/` (if needed)
+- **Feature Summaries:** Maintain feature ideas summary in `1-ideas/summaries.md`
+- **Business Cases:** Create feature business case in `1-ideas/[department]/business-case-[feature-name].md`
 - **Integration Plans:** Document integration considerations in feature documents
 
 ## Allowed Actions
@@ -187,7 +187,7 @@ All Ideas Mode outputs go to:
   - `1-ideas/1.3-initial-go-to-market-plan.md` (→ final: `4-marketing/go-to-market.md`) - **UPDATE, don't recreate**
 
 #### For Feature Ideas:
-- **Feature Ideas:** `1-ideas/1.4-feature-ideas/`
+- **Feature Ideas:** `1-ideas/[department]/` (organized by department: `marketing/`, `technical/`, `operations/`, `finance/`, `product/`)
   - `feature-[feature-name].md` - Feature idea document (e.g., `feature-user-dashboard.md`)
   - `summaries.md` - **ALWAYS UPDATE THIS FILE** with new feature ideas (do NOT create new summary files)
   - `analysis/` - Feature analysis documents (e.g., `analysis-[feature-name]-impact.md`)
@@ -224,10 +224,10 @@ Before creating or modifying ANY file in Ideas Mode:
 
 #### For Feature Ideas:
 1. ✅ **Read existing product docs first** - Check `2-product-foundation/`, `3-technical/3.1-system-foundation/architecture/domain-specs.md`
-2. ✅ **Check existing feature ideas** - Check `1-ideas/1.4-feature-ideas/summaries.md` and existing feature documents
+2. ✅ **Check existing feature ideas** - Check `1-ideas/summaries.md` and existing feature documents in department folders
 3. ✅ **Check product backlog** - Review `2-product-foundation/2.2-product-backlog/backlog.md` for similar features
 4. ✅ **Consult docs-guardian** - If creating a new file, ask `@docs-guardian` about location and naming
-5. ✅ **Update summaries.md** - Always update `1-ideas/1.4-feature-ideas/summaries.md` when adding new feature ideas
+5. ✅ **Update summaries.md** - Always update `1-ideas/summaries.md` when adding new feature ideas
 6. ✅ **Follow naming convention** - Use kebab-case, descriptive names (e.g., `feature-[feature-name].md`)
 7. ✅ **Link in summaries.md** - Add link to new feature idea in `summaries.md`
 8. ✅ **Consider integration** - Document how feature integrates with existing product
@@ -254,7 +254,7 @@ When in Ideas Mode, use this format:
 
 **Files created/modified**:
 - For New Product: `1-ideas/1.1-market-research/[files]`, `1-ideas/business-case-[name].md`
-- For Feature: `1-ideas/1.4-feature-ideas/feature-[name].md`, `1-ideas/1.4-feature-ideas/business-case-[name].md`
+- For Feature: `1-ideas/[department]/feature-[name].md`, `1-ideas/[department]/business-case-[name].md`
 - `8-governance/risk-register.md`
 
 **Key Findings**:

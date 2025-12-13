@@ -37,7 +37,7 @@ This file tracks all changes to the project structure, documentation, and codeba
 - `6-operations/team/team-structure-review-2025-12.md` - Updated file references
 - `6-operations/team/team-structure-plan-2025-12.md` - Updated file reference
 - `5-financing/projections/enhanced-assumptions-documentation-2025-12.md` - Updated file reference
-- `1-ideas/initial-plans/1.2-initial-financing-plan.md` - Updated file reference
+- `1-ideas/finance/1.2-initial-financing-plan.md` - Updated file reference
 - `8-governance/changelog.md` - Updated historical file references
 
 ### Rationale
@@ -53,7 +53,7 @@ Documents were reorganized into logical subfolders to improve navigation and mai
 ### Summary
 - **Action:** Created comprehensive Launching Day event template and checklist based on real experience
 - **Created:** `6-operations/processes/launching-day-event-template-2025-12.md` - Event template with planning checklist
-- **Updated:** `1-ideas/1.4-feature-ideas/feature-launching-day-event.md` - Updated with actual cost and results
+- **Updated:** `1-ideas/operations/feature-launching-day-event.md` - Updated with actual cost and results
 - **Updated:** `6-operations/processes/building-onboarding-process-2025-12.md` - Updated with Launching Day costs
 - **Status:** ✅ Complete - Ready for pilot
 
@@ -405,7 +405,7 @@ Documents were reorganized into logical subfolders to improve navigation and mai
 - **Validation Framework:** Pilot building metrics to validate assumptions
 
 ### Files Updated
-- `1-ideas/initial-plans/1.2-initial-financing-plan.md` - Added note about revised projections and references to framework-based documents
+- `1-ideas/finance/1.2-initial-financing-plan.md` - Added note about revised projections and references to framework-based documents
 
 ### Rationale
 Original financial projections contained unrealistic assumptions (CAC, LTV/CAC ratios, payback periods). Framework-based projections apply industry-standard benchmarks to create realistic, validated projections that align with B2B SaaS best practices.

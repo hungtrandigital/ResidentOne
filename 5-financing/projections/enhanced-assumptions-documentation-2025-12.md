@@ -779,7 +779,7 @@ This document provides **comprehensive documentation** of all assumptions used i
 
 **Source:**
 - Team structure analysis: `6-operations/team/team-structure-analysis.md`
-- Financing plan: `1-ideas/initial-plans/1.2-initial-financing-plan.md`
+- Financing plan: `1-ideas/finance/1.2-initial-financing-plan.md`
 - Internal estimate: Based on team structure and market rates
 
 **Validation Plan:**
@@ -827,7 +827,7 @@ This document provides **comprehensive documentation** of all assumptions used i
 - Minimal tools to reduce cash burn
 
 **Source:**
-- Financing plan: `1-ideas/initial-plans/1.2-initial-financing-plan.md`
+- Financing plan: `1-ideas/finance/1.2-initial-financing-plan.md`
 - AI-first review: `5-financing/reviews/financing-plan-ai-first-review-2025-12.md`
 - Internal estimate: Based on tool requirements and pricing
 

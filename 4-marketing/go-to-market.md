@@ -21,5 +21,5 @@ _Add go-to-market timeline and milestones here._
 ---
 
 **Last Updated:** 2025-01-27  
-**Related:** See [1-ideas/initial-plans/1.3-initial-go-to-market-plan.md](../1-ideas/initial-plans/1.3-initial-go-to-market-plan.md) for initial version
+**Related:** See [1-ideas/marketing/1.3-initial-go-to-market-plan.md](../1-ideas/marketing/1.3-initial-go-to-market-plan.md) for initial version
 

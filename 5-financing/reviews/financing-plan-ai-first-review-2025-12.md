@@ -455,7 +455,7 @@ The financing plan is fundamentally sound but needs updates to reflect the AI-fi
 
 ### 9.3 Next Steps
 
-1. **Update Financing Plan Document** (`1-ideas/initial-plans/1.2-initial-financing-plan.md`)
+1. **Update Financing Plan Document** (`1-ideas/finance/1.2-initial-financing-plan.md`)
    - Apply all recommended changes
    - Ensure consistency across all sections
 

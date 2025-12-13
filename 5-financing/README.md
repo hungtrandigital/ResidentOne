@@ -20,7 +20,7 @@ Document and manage:
 
 ## Document Lifecycle
 
-- **Initial plans** start in `1-ideas/initial-plans/1.2-initial-financing-plan.md`
+- **Initial plans** start in `1-ideas/finance/1.2-initial-financing-plan.md`
 - **Final versions** are here (e.g., `plans.md`)
 - **Analysis documents** are in `analysis/`
 - **Preparation documents** are in `preparation/`

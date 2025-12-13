@@ -458,7 +458,7 @@ This document defines a comprehensive, standardized onboarding process for each 
    - **Actual Results:** 40 sellers + ~100 residents on launch day, 60 sellers + 400 residents after 1 month
    - **Benefits:** 2-4× faster user adoption, 2.5-4× better growth, 10-15% better retention
    - **See:** 
-     - `1-ideas/1.4-feature-ideas/feature-launching-day-event.md` for detailed analysis
+     - `1-ideas/operations/feature-launching-day-event.md` for detailed analysis
      - `6-operations/processes/launching-day-event-template-2025-12.md` for event template and checklist
 
 3. **Initial Support** (Day 31-35)

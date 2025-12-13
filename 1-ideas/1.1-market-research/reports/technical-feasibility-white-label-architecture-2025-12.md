@@ -150,7 +150,7 @@ CREATE TABLE categories (
 - **Initial Infrastructure:** Cloud VPS deployment (cost optimization)
 - **Future Migration:** Easy migration to cloud platforms (AWS, GCP, Azure) when needed
 
-**See [Microservices Architecture with VPS Infrastructure](../1.4-feature-ideas/feature-microservices-architecture-vps-2025-12.md) for detailed analysis.**
+**See [Microservices Architecture with VPS Infrastructure](../../technical/feature-microservices-architecture-vps-2025-12.md) for detailed analysis.**
 
 #### Phase 1: VPS Infrastructure (Initial - Cost Optimization)
 - **VPS Provider:** DigitalOcean, Linode, Vultr, or similar

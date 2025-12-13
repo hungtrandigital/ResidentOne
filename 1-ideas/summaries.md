@@ -38,7 +38,7 @@ This file contains summaries of all feature ideas and their analysis.
 
 **Status:** Research & Analysis - Ready for Technical Feasibility Study
 
-**See:** [Feature Analysis](feature-zalo-content-automation-2025-12.md)
+**See:** [Feature Analysis](operations/feature-zalo-content-automation-2025-12.md)
 
 ### 2025-12-12 — Microservices Architecture with VPS Infrastructure
 
@@ -71,7 +71,7 @@ This file contains summaries of all feature ideas and their analysis.
 
 **Status:** Research & Analysis - Ready for Architecture Design
 
-**See:** [Feature Analysis](feature-microservices-architecture-vps-2025-12.md)
+**See:** [Feature Analysis](technical/feature-microservices-architecture-vps-2025-12.md)
 
 ### 2025-12-13 — Launching Day Event
 
@@ -109,7 +109,7 @@ This file contains summaries of all feature ideas and their analysis.
 
 **Status:** Feature Idea Analysis - Strongly Recommended for Implementation
 
-**See:** [Feature Analysis](feature-launching-day-event.md)
+**See:** [Feature Analysis](operations/feature-launching-day-event.md)
 
 ---
 

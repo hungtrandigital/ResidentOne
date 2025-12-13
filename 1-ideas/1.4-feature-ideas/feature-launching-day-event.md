@@ -21,9 +21,10 @@
 - Addresses key risk: user adoption
 
 **Key Considerations:**
-- Additional cost: VND 2-5M per building
+- Additional cost: VND 35-40M per building (based on real experience)
 - Requires coordination with BQL/BQT
 - Timing: Should be part of Phase 6 (Launch) in onboarding process
+- **Actual Results:** 40 sellers + ~100 residents on launch day, 60 sellers + 400 residents after 1 month
 
 ---
 
@@ -466,21 +467,30 @@
 
 **Phase 1: Pilot (First 5-10 Buildings)**
 - **Format:** Physical event (Option 1)
-- **Cost:** VND 3-5M per building
-- **Goal:** Validate concept, refine format
-- **Success Criteria:** 50+ users registered on launch day, 200+ users in first week
+- **Cost:** VND 35-40M per building (actual experience)
+- **Goal:** Validate concept, refine format, optimize costs
+- **Success Criteria:** 
+  - Launch day: 30+ sellers + 80+ residents registered
+  - Month 1: 50+ sellers + 300+ residents
+  - Cost optimization opportunities identified
 
 **Phase 2: Scale (Next 20-30 Buildings)**
 - **Format:** Physical event (standardized)
-- **Cost:** VND 2-4M per building (optimized)
-- **Goal:** Scale successful format
-- **Success Criteria:** Consistent results across buildings
+- **Cost:** VND 30-35M per building (optimized from learnings)
+- **Goal:** Scale successful format, optimize costs
+- **Success Criteria:** 
+  - Consistent results across buildings
+  - Cost reduced to VND 30-35M
+  - Maintain adoption rates
 
 **Phase 3: Optimize (50+ Buildings)**
 - **Format:** Hybrid or physical (building-dependent)
-- **Cost:** VND 2-3M per building (further optimized)
-- **Goal:** Optimize cost and format
-- **Success Criteria:** Maintain adoption rates with lower cost
+- **Cost:** VND 25-30M per building (further optimized)
+- **Goal:** Optimize cost and format for scale
+- **Success Criteria:** 
+  - Cost reduced to VND 25-30M
+  - Maintain adoption rates
+  - Scalable process established
 
 ---
 

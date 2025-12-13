@@ -2,6 +2,57 @@
 
 This file tracks all changes to the project structure, documentation, and codebase.
 
+## 2025-12-13 — Framework-Based Financial Projections Created
+
+### Summary
+- **Action:** Created comprehensive framework-based financial projections using industry-standard frameworks
+- **Created:** Multiple projection documents with realistic assumptions based on industry benchmarks
+- **Status:** ✅ Complete - Framework-based projections with 3 scenarios
+
+### Files Created
+- `5-financing/projections/framework-based-financial-projections-2025-12.md` - Comprehensive framework-based projections with:
+  - SaaS Unit Economics Framework (CAC, LTV, LTV/CAC, payback)
+  - Industry benchmark validation
+  - Three scenarios: Conservative, Realistic, Optimistic
+  - Validation framework for pilot buildings
+- `5-financing/projections/pilot-validation-plan-2025-12.md` - Validation framework for:
+  - CAC validation (track actual vs projected)
+  - Churn rate validation (track actual vs projected)
+  - Conversion rate validation (track actual vs projected)
+  - LTV validation (track actual vs projected)
+  - Building growth validation
+- `5-financing/projections/revised-financial-projections-summary-2025-12.md` - Summary of revised projections vs original
+- `5-financing/projections/funding-strategy-revised-2025-12.md` - Revised funding strategy based on realistic projections
+- `5-financing/projections/README.md` - Documentation for projections directory
+
+### Key Revised Projections
+- **CAC:** VND 8-15M (revised from VND 1-2M) - 4-7× increase
+- **LTV:** VND 80-120M (revised from VND 168M) - 30-50% decrease
+- **LTV/CAC:** 5-10× (revised from 84-168×) - realistic for excellent SaaS
+- **Year 1 Revenue:** VND 840M-1.2B (revised from VND 1.62B) - 25-50% decrease
+- **Year 1 Buildings:** 20-40 (revised from 50) - 20-60% decrease
+- **Break-Even:** Month 10-24 (revised from Month 7-8) - 3-16 months later
+- **Year 1 Funding:** VND 500M-1.5B (revised from VND 200M-500M) - 2-3× increase
+
+### Scenarios Created
+- **Conservative:** 15-25 buildings Year 1, VND 600M-1B revenue, Month 18-24 break-even
+- **Realistic (Recommended):** 25-35 buildings Year 1, VND 840M-1.2B revenue, Month 12-18 break-even
+- **Optimistic:** 35-50 buildings Year 1, VND 1.2B-1.8B revenue, Month 10-14 break-even
+
+### Framework Applied
+- **SaaS Unit Economics Model:** CAC, LTV, LTV/CAC ratios, payback periods
+- **Industry Benchmark Validation:** B2B SaaS standards for churn, conversion, growth
+- **Scenario Planning:** Conservative, Realistic, Optimistic scenarios
+- **Validation Framework:** Pilot building metrics to validate assumptions
+
+### Files Updated
+- `1-ideas/initial-plans/1.2-initial-financing-plan.md` - Added note about revised projections and references to framework-based documents
+
+### Rationale
+Original financial projections contained unrealistic assumptions (CAC, LTV/CAC ratios, payback periods). Framework-based projections apply industry-standard benchmarks to create realistic, validated projections that align with B2B SaaS best practices.
+
+---
+
 ## 2025-12-13 — Documentation Audit Review
 
 ### Summary

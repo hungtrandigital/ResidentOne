@@ -4,6 +4,50 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ---
 
+## 2025-12-13 — 6-Operations Folder Reorganization
+
+### Summary
+- **Action:** Reorganized `6-operations/` folder into logical subfolders based on document meaning
+- **Created:** `6-operations/team/` subfolder for all team-related documents
+- **Created:** `6-operations/processes/` subfolder for operational processes and templates
+- **Created:** README.md files for new subfolders
+- **Updated:** All file references in related documents
+- **Status:** ✅ Complete - Structure reorganized and all links updated
+
+### New Structure
+
+**Team Subfolder (`6-operations/team/`):**
+- `team-structure.md` - Quick reference
+- `team-structure-analysis.md` - Initial analysis
+- `team-structure-plan-2025-12.md` - Comprehensive plan
+- `team-structure-feasibility-review-2025-12.md` - Feasibility review
+- `team-gaps-analysis.md` - Gaps analysis
+- `team-structure-review-2025-12.md` - Quality review
+- `README.md` - Team documentation index
+
+**Processes Subfolder (`6-operations/processes/`):**
+- `building-onboarding-process-2025-12.md` - Building onboarding process
+- `launching-day-event-template-2025-12.md` - Event template
+- `README.md` - Processes documentation index
+
+### Files Updated
+- `6-operations/README.md` - Updated with new structure
+- `INDEX.md` - Updated folder structure
+- `6-operations/processes/building-onboarding-process-2025-12.md` - Updated file reference
+- `6-operations/team/team-structure-review-2025-12.md` - Updated file references
+- `6-operations/team/team-structure-plan-2025-12.md` - Updated file reference
+- `5-financing/projections/enhanced-assumptions-documentation-2025-12.md` - Updated file reference
+- `1-ideas/initial-plans/1.2-initial-financing-plan.md` - Updated file reference
+- `8-governance/changelog.md` - Updated historical file references
+
+### Rationale
+Documents were reorganized into logical subfolders to improve navigation and maintainability:
+- **Team documents** grouped together for easy access to all team-related information
+- **Process documents** grouped together for operational procedures and templates
+- Existing subfolders (`legal/`, `hr/`, `vendor-contracts/`) remain unchanged
+
+---
+
 ## 2025-12-13 — Launching Day Event Template & Checklist
 
 ### Summary

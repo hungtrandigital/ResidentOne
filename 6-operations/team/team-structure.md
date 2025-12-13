@@ -8,10 +8,10 @@
 
 This document provides the team structure for ResidentOne platform. For detailed job descriptions, scope definitions, and organization charts, see:
 
-- **`team-structure-plan-2025-12.md`** - Comprehensive team structure plan with detailed JDs
-- **`team-structure-analysis.md`** - Initial team structure analysis and resource mapping
-- **`team-structure-feasibility-review-2025-12.md`** - Feasibility review and assessment
-- **`team-gaps-analysis.md`** - Team gaps analysis and hiring recommendations
+- **`team/team-structure-plan-2025-12.md`** - Comprehensive team structure plan with detailed JDs
+- **`team/team-structure-analysis.md`** - Initial team structure analysis and resource mapping
+- **`team/team-structure-feasibility-review-2025-12.md`** - Feasibility review and assessment
+- **`team/team-gaps-analysis.md`** - Team gaps analysis and hiring recommendations
 
 ## Quick Reference
 
@@ -53,9 +53,9 @@ This document provides the team structure for ResidentOne platform. For detailed
 ## Key Documents
 
 For detailed information, see:
-- **Team Structure Plan:** `team-structure-plan-2025-12.md` - Detailed JDs, scope, positions
-- **Feasibility Review:** `team-structure-feasibility-review-2025-12.md` - Feasibility assessment
-- **Gaps Analysis:** `team-gaps-analysis.md` - Hiring recommendations
+- **Team Structure Plan:** `team/team-structure-plan-2025-12.md` - Detailed JDs, scope, positions
+- **Feasibility Review:** `team/team-structure-feasibility-review-2025-12.md` - Feasibility assessment
+- **Gaps Analysis:** `team/team-gaps-analysis.md` - Hiring recommendations
 
 ---
 

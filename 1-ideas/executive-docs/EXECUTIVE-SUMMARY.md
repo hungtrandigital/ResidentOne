@@ -238,8 +238,13 @@ From resident perspective, platform is comprehensive building hub:
 
 ### 5.1 Revenue Streams
 
-1. **Building Subscriptions:** VND 5-25M/month per building (primary)
-   - Tiered pricing based on building size and features
+1. **Building Subscriptions:** VND 5-25M/month per building (primary, average VND 8M/month)
+   - **Multi-Tier Pricing:**
+     - Free: 30% of buildings (no revenue)
+     - Basic: 40% of buildings (VND 5M/month)
+     - Premium: 20% of buildings (VND 10M/month)
+     - Enterprise: 10% of buildings (VND 25M/month)
+   - **Effective Revenue:** VND 5.6M/building/month (70% paid × VND 8M average)
    - Freemium model for basic features
    - Premium tier for advanced features
 

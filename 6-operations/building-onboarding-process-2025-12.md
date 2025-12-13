@@ -448,22 +448,32 @@ This document defines a comprehensive, standardized onboarding process for each 
    - **Time:** 4-6 hours (launch day)
    - **Cost:** VND 0.3M (launch support)
 
-2. **Initial Support** (Day 31-35)
+2. **Launching Day Event** (Day 32-34) ⭐ **RECOMMENDED**
+   - Physical or hybrid event for residents and sellers
+   - Platform introduction and live demo
+   - On-site onboarding support
+   - Community building
+   - **Time:** 4-6 hours (event day)
+   - **Cost:** VND 2-5M per building (average VND 3.5M)
+   - **Benefits:** 2-4× faster user adoption, 10-15% better retention
+   - **See:** `1-ideas/1.4-feature-ideas/feature-launching-day-event.md` for detailed analysis
+
+3. **Initial Support** (Day 31-35)
    - Provide immediate support
    - Answer questions
    - Fix urgent issues
    - **Time:** 10-15 hours (first week)
    - **Cost:** VND 0.5M (support time)
 
-3. **User Onboarding** (Day 31-42)
+4. **User Onboarding** (Day 31-42)
    - Help users register
    - Guide initial usage
    - Provide tutorials
    - **Time:** 5-10 hours
    - **Cost:** VND 0.3M (onboarding support)
 
-**Total Time:** 19-31 hours  
-**Total Cost:** VND 1.1M per building
+**Total Time:** 23-37 hours (with Launching Day)  
+**Total Cost:** VND 3.1-6.1M per building (with Launching Day: VND 4.4M average)
 
 ---
 
@@ -516,15 +526,24 @@ This document defines a comprehensive, standardized onboarding process for each 
 - Data Collection: VND 1.0M
 - Training & Testing: VND 1.3M
 - Launch Preparation: VND 0.6M
-- Launch: VND 1.1M
-- **Total Onboarding Cost: VND 6.35M per building**
+- Launch: VND 1.1M (without Launching Day) or VND 4.4M (with Launching Day, average)
+- **Total Onboarding Cost: VND 6.35M per building (without Launching Day)**
+- **Total Onboarding Cost: VND 9.75M per building (with Launching Day, average)**
 
-**Total One-Time Cost:**
+**Total One-Time Cost (Without Launching Day):**
 - Direct Sales: VND 10M (CAC) + VND 6.35M (Onboarding) = **VND 16.35M**
 - Partner Sales: VND 3M (CAC) + VND 6.35M (Onboarding) = **VND 9.35M**
 - Community Ambassador: VND 1.5M (CAC) + VND 6.35M (Onboarding) = **VND 7.85M**
 - Referral: VND 8M (CAC) + VND 6.35M (Onboarding) = **VND 14.35M**
 - Digital Marketing: VND 5M (CAC) + VND 6.35M (Onboarding) = **VND 11.35M**
+
+**Total One-Time Cost (With Launching Day - Recommended):**
+- Direct Sales: VND 10M (CAC) + VND 9.75M (Onboarding) = **VND 19.75M**
+- Partner Sales: VND 3M (CAC) + VND 9.75M (Onboarding) = **VND 12.75M**
+- Community Ambassador: VND 1.5M (CAC) + VND 9.75M (Onboarding) = **VND 11.25M**
+- Referral: VND 8M (CAC) + VND 9.75M (Onboarding) = **VND 17.75M**
+- Digital Marketing: VND 5M (CAC) + VND 9.75M (Onboarding) = **VND 14.75M**
+- **Note:** Launching Day cost (VND 3.5M average) is justified by 2-4× faster adoption and 10-15% better retention
 
 ---
 

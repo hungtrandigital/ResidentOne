@@ -243,17 +243,23 @@
 - **Better Retention:** 10-15% improvement → higher LTV
 - **More Sellers:** 2-3× more sellers → more listings → more transactions
 
-**Estimated ROI:**
-- **Cost:** VND 3.5M one-time
-- **Benefit:** 2-4× faster adoption + 10-15% better retention
-- **Payback:** Achieved through faster revenue growth and better retention
-- **ROI:** Positive (faster critical mass and better retention justify cost)
+**Actual Results (Real Experience):**
+- **Launch Day:** 40 sellers + ~100 residents registered
+- **Month 1:** 60 sellers (50% growth) + 400 residents (300% growth)
+- **Cost:** VND 35-40M per building
 
-**Break-Even Analysis:**
-- If launching day accelerates critical mass by 2 months:
-  - Additional revenue: 2 months × VND 5.6M/month = VND 11.2M
-  - Cost: VND 3.5M
-  - **Net Benefit: VND 7.7M per building**
+**ROI Analysis (Updated with Real Data):**
+- **Cost:** VND 37.5M (average)
+- **Benefits:**
+  - 2-4× faster adoption (40 sellers + 100 residents on launch day)
+  - 2.5-4× better growth (60 sellers + 400 residents in Month 1)
+  - 10-15% better retention (expected)
+- **Revenue Impact:**
+  - Much faster critical mass achievement (1-2 months vs. 3-6 months)
+  - 2-3× more sellers → more listings → more transactions
+  - Better retention → higher LTV
+- **ROI:** Positive - Faster critical mass and much better growth justify cost
+- **Break-Even:** 6.7-8.3 months (but benefits continue beyond break-even)
 
 ---
 

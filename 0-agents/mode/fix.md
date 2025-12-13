@@ -89,6 +89,20 @@ Before starting, classify the issue:
 
 ## Fast Fix Workflow (Small Issues)
 
+**Work-Item Traceability (MANDATORY):**
+- **Before starting:** Read `0-agents/_core/work-item-traceability.md` to understand ID schema, parent_id attachment rules, and lifecycle tracking
+- **Identify which epic/slice this bug belongs to** - Ask: "During which feature was this bug discovered? Which epic or slice is affected?"
+- **Once identified:** Find the epic/slice plan in `3-technical/3.2-implementation/plans/epics/[epic-name]/` or `plans/active/[slice-name].md`
+- **Do NOT create a new plan file** - Instead, attach this bug to the parent epic/slice plan:
+  - Add bug ID to plan's `related_ids: [CODE-BUG-042]`
+  - Add "Known Issues" section in the plan documenting: bug title, root cause, fix status, who fixed it
+  - **Result:** Bug is traceable to its source epic; no orphan documentation
+
+**Capture the change in:**
+  - Update parent epic/slice plan with bug metadata (see above)
+  - `8-governance/changelog.md` with link back to epic/slice plan (e.g., "Related to PRD-EPIC-001")
+  - `3-technical/3.2-implementation/status/progress.md` (if code-related)
+
 ### 1. Find Root Cause
 - Activate `debugging` skill from `0-agents/agents/skills/debugging/` for systematic debugging
 - Activate `problem-solving` skill if needed
@@ -134,20 +148,34 @@ Before starting, classify the issue:
 - Gather information about similar issues, solutions, best practices
 - Document research findings
 
-### 3. Create Implementation Plan
-- **Check if plan exists first** - Search `plans/active/fix-[issue-name].md` before creating
+### 3. Create Implementation Plan (For Complex Fixes Only)
+
+**When to create a plan:**
+- Complex, multi-file fix requiring coordination or investigation
+- Fix affects architecture or multiple systems
+- Fix has multiple sequential steps + risk
+
+**When NOT to create a plan:**
+- Simple, isolated bug fix (use Fast Fix workflow above)
+
+**If plan needed:**
+- **Check if plan exists first** - Search `3-technical/3.2-implementation/plans/active/` for an existing `fix-[issue-name].md` and **reuse/update it** before creating anything new
 - **Location:** `3-technical/3.2-implementation/plans/active/fix-[issue-name].md`
-- **Add metadata:**
-  ```markdown
+- **Attach to parent epic** - Identify which epic this fix belongs to, set `parent_id: [PRD-EPIC-001]` in metadata
+- **Add work-item metadata (mandatory):**
+  ```yaml
   ---
-  status: active
-  type: fix
-  priority: [high|medium|low]
+  id: CODE-BUG-042                  # Unique bug ID
+  title: "Login button broken on mobile"
+  type: bug
+  domain: code
+  status: active | in-progress | completed
+  parent_id: PRD-EPIC-001           # Which epic does this bug belong to?
   created: YYYY-MM-DD
   updated: YYYY-MM-DD
-  epic: -
-  system: [system-name]
-  related-requirements: [if applicable]
+  priority: [high|medium|low]
+  owner: @engineer-name
+  phases: [fix, test, review]       # Which modes does this pass through?
   ---
   ```
 - Plan should include:
@@ -156,7 +184,7 @@ Before starting, classify the issue:
   - Step-by-step implementation
   - Testing strategy
   - Risk assessment
-- **Update index:** Add to `plans/README.md` Active Plans table
+- **Update index:** Add to `3-technical/3.2-implementation/plans/README.md` Active Plans table **AND** `work-items-registry.md`
 - Or consult with @system-architecture or @product-strategist if fix affects architecture
 
 ### 4. Implement Fix (Step by Step)
@@ -214,6 +242,7 @@ Before starting, classify the issue:
 - **Skip testing** - All fixes must be tested
 - **Skip root cause analysis** - Always find root cause, not just symptoms
 - **Create technical debt** - Fix properly, don't create shortcuts
+- **Create plan files for small-scope fixes** - Small-scope fixes must not generate new plan documents
 - **Ignore coding standards** - Follow `development-rules.md` and `coding-standards.md`
 - **Skip documentation updates** - Update docs if fix affects them
 - **Deploy without review** - Critical fixes should be reviewed (use Review Mode)

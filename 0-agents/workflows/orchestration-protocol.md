@@ -12,6 +12,25 @@ All agents must obey this protocol without exception.
 
 ## Supported Orchestration Patterns
 
+### 0. Task Validation Gate (ALWAYS FIRST)
+
+**Before any task is assigned to an agent, @product-strategist MUST validate it.**
+
+When a new task is proposed:
+1. Check if it links to an existing epic (`2-product-foundation/2.2-product-backlog/backlog.md`)
+2. Check if it's part of an existing idea (`1-ideas/`)
+3. Check if it's part of an existing plan (`3-technical/3.2-implementation/plans/`)
+
+**If validation fails:**
+- 🛑 STOP — Do not hand off to other agents
+- 🛑 Ask human for clarification (which epic? what's the business case? what's the success metric?)
+- 🛑 Once clarified, add to backlog or update relevant plan FIRST
+
+**If validation passes:**
+- ✅ Proceed with orchestration chains below
+
+---
+
 ### 1. Sequential Chaining (default & safest)
 Use when output of step N is required as input for step N+1.
 
@@ -34,12 +53,14 @@ Allowed parallel tracks:
 - iOS Engineer ↔ Android Engineer ↔ Web Engineer
 
 Coordination rules:
-- Before starting parallel work, create a file coordination-plan.md inside the relevant folder stating:
+- Before starting parallel work, **update the active plan file** in `3-technical/3.2-implementation/plans/` with a short “Parallel Coordination” section stating:
   - Which agents run in parallel
   - Integration/merge point
   - Shared files (if any)
-- All parallel agents must check this file first
-- Final merge is done by a designated “Integration Agent” (usually Fullstack Engineer or DevOps)
+- All parallel agents must read that plan section before starting
+- Final merge is done by a designated “Integration Agent” (usually @fullstack-engineer or @devops)
+
+If a separate coordination file is truly necessary, **consult @docs-guardian first** and use a kebab-case, non-generic filename placed in the correct folder.
 
 ### 3. Review & Approval Loops
 Every execution or parallel track must end with a review cycle:

@@ -1,45 +1,52 @@
-# Primary Workflow
+# Primary Workflow — AI-First Startup Factory
 
-**IMPORTANT:** Analyze the skills catalog and activate the skills that are needed for the task during the process.
-**IMPORTANT**: Ensure token efficiency while maintaining high quality.
+This workflow is the default operating system for coordinated, multi-agent work in this repository.
 
-#### 1. Code Implementation
-- Before you start, delegate to `planner` agent to create a implementation plan with TODO tasks in `./plans` directory.
-- When in planning phase, use multiple `researcher` agents in parallel to conduct research on different relevant technical topics and report back to `planner` agent to create implementation plan.
-- Write clean, readable, and maintainable code
-- Follow established architectural patterns
-- Implement features according to specifications
-- Handle edge cases and error scenarios
-- **DO NOT** create new enhanced files, update to the existing files directly.
-- **[IMPORTANT]** After creating or modifying code file, run compile command/script to check for any compile errors.
+**Always:** activate relevant skills from `0-agents/agents/skills/` when the task matches.
 
-#### 2. Testing
-- Delegate to `tester` agent to run tests and analyze the summary report.
-  - Write comprehensive unit tests
-  - Ensure high code coverage
-  - Test error scenarios
-  - Validate performance requirements
-- Tests are critical for ensuring code quality and reliability, **DO NOT** ignore failing tests just to pass the build.
-- **IMPORTANT:** make sure you don't use fake data, mocks, cheats, tricks, temporary solutions, just to pass the build or github actions.
-- **IMPORTANT:** Always fix failing tests follow the recommendations and delegate to `tester` agent to run tests again, only finish your session when all tests pass.
+## 1) Pick the Right Mode (do this first)
 
-#### 3. Code Quality
-- After finish implementation, delegate to `code-reviewer` agent to review code.
-- Follow coding standards and conventions
-- Write self-documenting code
-- Add meaningful comments for complex logic
-- Optimize for performance and maintainability
+- `chat` → Q&A, scope alignment, no repo modifications
+- `ideas` → research/brainstorming in `1-ideas/`
+- `plan` → roadmaps/specs/backlogs in `2-product-foundation/` + `3-technical/`
+- `code` → implementation in `systems/[system-name]/`
+- `review` → QA-only (no new features)
+- `fix` → bug fixes and problem resolution
+- `deliver` → orchestrate end-to-end until complete
 
-#### 4. Integration
-- Always follow the plan given by `planner` agent
-- Ensure seamless integration with existing code
-- Follow API contracts precisely
-- Maintain backward compatibility
-- Document breaking changes
-- Delegate to `docs-manager` agent to update docs in `./docs` directory if any.
+## 2) Product & Business Inputs (when building anything new)
 
-#### 5. Debugging
-- When a user report bugs or issues on the server or a CI/CD pipeline, delegate to `debugger` agent to run tests and analyze the summary report.
-- Read the summary report from `debugger` agent and implement the fix.
-- Delegate to `tester` agent to run tests and analyze the summary report.
-- If the `tester` agent reports failed tests, fix them follow the recommendations and repeat from the **Step 2**.
+- @business-analyst → market + unit economics + realistic assumptions (with sources)
+- @product-strategist → requirements + acceptance criteria + success metrics
+
+**Output must include:** measurable KPIs, leading indicators, and explicit assumptions (avoid single-point “perfect” projections).
+
+## 3) Architecture (before code)
+
+- @system-architecture → tech stack + domain specs + API contracts + NFRs + ADRs
+
+**Gate:** if any mandatory architecture doc is missing, stop and request it (do not guess).
+
+## 4) Plan the Work (before code changes)
+
+- Create/update an implementation plan in `3-technical/3.2-implementation/plans/` (check existing first).
+- Keep the plan task-oriented and test-first.
+
+## 5) Implement & Verify
+
+- @fullstack-engineer → implement in `systems/[system-name]/` following design standards and API contracts
+- Run the stack’s compile/lint/tests locally (no “green by cheating”)
+- Use `debugging` + `sequential-thinking` skills when diagnosing failures
+
+## 6) Review & Governance
+
+- @code-reviewer → approve/reject with explicit blockers
+- @docs-guardian → verify docs structure, links, and domain spec updates (implementation-level)
+
+**Always update after changes:**
+- `8-governance/changelog.md`
+- `3-technical/3.2-implementation/status/progress.md` (when code-related)
+
+## 7) Handoff
+
+End every session with the handoff block defined in `0-agents/workflows/orchestration-protocol.md`.

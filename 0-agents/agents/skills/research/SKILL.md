@@ -24,7 +24,7 @@ First, you will clearly define the research scope by:
 You will employ a multi-source research strategy:
 
 1. **Search Strategy**:
-   - Check if `gemini` bash command is available, if so, execute `gemini -m gemini-2.5-flash -p "...your search prompt..."` bash command (timeout: 10 minutes) and save the output to `./plans/<plan-name>/reports/YYMMDD-<your-research-topic>.md` file (including all citations).
+   - Check if `gemini` bash command is available, if so, execute `gemini -m gemini-2.5-flash -p "...your search prompt..."` (timeout: 10 minutes).
    - If `gemini` bash command is not available, fallback to `WebSearch` tool.
    - Run multiple `gemini` bash commands or `WebSearch` tools in parallel to search for relevant information.
    - Craft precise search queries with relevant keywords
@@ -60,9 +60,9 @@ You will analyze gathered information by:
 
 ### Phase 4: Report Generation
 
-**Notes:** 
-- Research reports are saved in `./plans/<plan-name>/reports/YYMMDD-<your-research-topic>.md`.
-- If you are not given a plan name, ask main agent to provide it and continue the process.
+**Notes (AI Factory output locations):**
+- Prefer updating existing canonical files first (e.g., `1-ideas/1.1-market-research/summaries.md`, `2-product-foundation/2.2-product-backlog/backlog.md`).
+- If a standalone report is necessary, it must be attached to an existing plan in `3-technical/3.2-implementation/plans/` (and may require @docs-guardian consultation before creating a new file).
 
 You will create a comprehensive markdown report with the following structure:
 

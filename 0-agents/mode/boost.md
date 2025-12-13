@@ -31,11 +31,15 @@ Use Boost Mode when:
 
 **Before starting any boost operations:**
 1. **Read `INDEX.md`** - Understand the complete target structure
-2. **Scan current codebase** - Identify existing files and structure
-3. **Check if `0-agents/` exists** - This directory should already exist and must NOT be modified
-4. **Identify scattered files** - Find files in wrong locations
+2. **Read `0-agents/_core/global-rules.md`** - Understand non-negotiable rules, especially:
+   - Rule 10.1: Task Validation Gate (tasks must link to epic/idea/plan)
+   - Rule 11: Work-Item Traceability System (all work items must have metadata)
+3. **Read `0-agents/_core/work-item-traceability.md`** - Understand work-item metadata requirements and ID schema
+4. **Scan current codebase** - Identify existing files and structure
+5. **Check if `0-agents/` exists** - This directory should already exist and must NOT be modified
+6. **Identify scattered files** - Find files in wrong locations
 
-**Action:** Always understand current state before creating structure or migrating files.
+**Action:** Always understand current state before creating structure or migrating files. Boost is not just structure setup—it also ensures traceability system is in place.
 
 ### 1. Create Directory Structure
 
@@ -172,19 +176,26 @@ If source code files exist in the codebase, perform code quality analysis:
    - **Refactor operations:** Files that need content updates (e.g., update links)
    - **Create operations:** New files to create (e.g., missing README.md)
 
-3. Check for conflicts:
+3. **Ensure traceability compliance** (MANDATORY):
+   - Identify all epic definitions (should be in `2-product-foundation/2.2-product-backlog/backlog.md`)
+   - Identify all work items (tasks, slices, bugs, plans)
+   - Ensure each work item will have required metadata (YAML frontmatter with `id`, `parent_id`, `related_ids`, `phases`, `owner`, `folder`)
+   - Check that `3-technical/3.2-implementation/status/work-items-registry.md` will be updated as source of truth
+   - Verify task validation gate can be enforced (every task must link to epic/idea/plan)
+
+4. Check for conflicts:
    - Will moving/renaming break any imports/references?
    - Are there duplicate files?
    - Will this overwrite existing files?
 
-4. **Include refactoring suggestions** (if Step 2.5 was performed):
+5. **Include refactoring suggestions** (if Step 2.5 was performed):
    - Reference the code quality report
    - Note that refactoring suggestions are separate from migration
    - User can implement refactoring suggestions later in Code Mode or Fix Mode
 
-5. Present migration plan to user for approval before executing
+6. Present migration plan to user for approval before executing
 
-**Output:** Detailed migration plan with phases, potential issues, and reference to refactoring suggestions (if available).
+**Output:** Detailed migration plan with phases, potential issues, reference to refactoring suggestions (if available), and **traceability compliance checklist**.
 
 ### 5. Execute Migration
 
@@ -256,8 +267,14 @@ Create comprehensive final report with:
 - Naming convention updates
 - Reference updates
 - **Code quality & refactoring suggestions** (if Step 2.5 was performed)
+- **Traceability System Status:**
+  - ✅ Work-Item Registry (`3-technical/3.2-implementation/status/work-items-registry.md`) is in place
+  - ✅ Epic definitions exist in `2-product-foundation/2.2-product-backlog/backlog.md`
+  - ✅ All work items have required metadata (id, parent_id, related_ids, phases, owner, folder)
+  - ✅ Task Validation Gate can be enforced (product-strategist will validate incoming tasks)
+  - ✅ Global rules are understood and applicable to new project
 - Issues & warnings
-- Next steps (including optional refactoring work)
+- Next steps (including optional refactoring work and project-specific setup in Plan Mode)
 - Verification checklist
 
 **Output:** Complete migration report saved to `8-governance/changelog.md` or appropriate location. If code quality analysis was performed, also save refactoring suggestions to `3-technical/3.2-implementation/plans/refactoring-suggestions.md` (for future reference).
@@ -266,6 +283,8 @@ Create comprehensive final report with:
 
 ✅ **You CAN:**
 - **Read `INDEX.md`** - Always read to understand target structure
+- **Read `0-agents/_core/global-rules.md`** - Understand rules, especially task validation gate and traceability system
+- **Read `0-agents/_core/work-item-traceability.md`** - Understand metadata and ID schema requirements
 - Create directory structure as defined in `INDEX.md`
 - Create README.md files with proper routing
 - Analyze existing files and categorize them
@@ -275,6 +294,7 @@ Create comprehensive final report with:
 - Update import paths and links
 - Create migration reports and refactoring suggestions reports
 - Ask user for confirmation when uncertain
+- **Verify traceability system setup** - Ensure epic definitions, work-items-registry, and metadata requirements are understood
 
 ## Forbidden Actions
 
@@ -302,15 +322,18 @@ Boost Mode outputs go to:
 
 Boost Mode typically transitions to:
 - **Chat Mode** - When boost is complete and user needs guidance
+- **Plan Mode** - When structure is ready and user wants to create project-specific epics and roadmap (MUST complete before Code Mode)
 - **Ideas Mode** - When structure is ready and user wants to start ideation
-- **Plan Mode** - When structure is ready and user wants to start planning
+
+**IMPORTANT:** After Boost completes structure setup, @product-strategist must establish initial epics in Plan Mode before any code work begins. This ensures the traceability system is initialized and the Task Validation Gate can function.
 
 **After Boost:**
-- Project structure is complete
+- Project structure is complete and matches Factory template
 - All files are in correct locations
 - Naming conventions are applied
 - References are updated
-- Ready for normal development workflow
+- `0-agents/` rules are understood and will be enforced
+- **NEXT STEP:** Transition to Plan Mode to create project-specific epics and roadmap
 
 ## Pre-Boost Checklist
 
@@ -319,6 +342,8 @@ Before starting boost, ensure:
 - ✅ `0-agents/` directory exists (will not be modified)
 - ✅ User understands this is a one-time setup operation
 - ✅ User is ready to review and approve migration plan
+- ✅ User is aware of Task Validation Gate and Work-Item Traceability requirements
+- ✅ User understands Plan Mode must follow Boost Mode to establish initial epics
 
 ## Success Criteria
 
@@ -331,6 +356,9 @@ Boost Mode is successful when:
 - ✅ No files were lost or deleted
 - ✅ User has clear report of all changes
 - ✅ Project structure matches target structure in `INDEX.md`
+- ✅ **Task Validation Gate is understood by user and team** (product-strategist will enforce)
+- ✅ **Work-Item Traceability System is understood** (metadata requirements, ID schema, registry)
+- ✅ **User is ready to transition to Plan Mode** to establish initial epics
 
 ## Orchestration Handoff Format
 
@@ -358,8 +386,11 @@ When in Boost Mode, use this format:
 
 - **[Boost Agent](../agents/boost.md)** - Primary agent for boost operations
 - **[INDEX.md](../../INDEX.md)** - Target directory structure reference
+- **[Global Rules](../_core/global-rules.md)** - Repository rules, including Task Validation Gate (rule 10.1) and Work-Item Traceability (rule 11)
+- **[Work-Item Traceability System](../_core/work-item-traceability.md)** - Complete glossary, ID schema, metadata requirements, lifecycle tracking
+- **[Product Strategist Agent](../agents/product-strategist.md)** - Who enforces Task Validation Gate and owns epic definition
+- **[Orchestration Protocol](../workflows/orchestration-protocol.md)** - Includes Task Validation Gate as section 0 (ALWAYS FIRST)
 - **[Docs Guardian Agent](../agents/docs-guardian.md)** - Structure verification (post-boost)
-- **[Global Rules](../_core/global-rules.md)** - Repository rules and constraints
 
 ---
 

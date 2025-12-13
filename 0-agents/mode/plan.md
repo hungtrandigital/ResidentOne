@@ -305,7 +305,13 @@ Use Plan Mode when:
 
 ## Output Locations
 
-**CRITICAL:** Before creating ANY file, consult `0-agents/_core/file-placement-guide.md` for correct location.
+**Placement guardrails (anti-sprawl):**
+- Default to updating the canonical file for the domain (marketing → `4-marketing/`, financing → `5-financing/`, product → `2-product-foundation/`, architecture → `3-technical/3.1-system-foundation/`).
+- Do not place marketing or financing plans inside `3-technical/`.
+- If you must create a new plan file, it must be:
+  - In `3-technical/3.2-implementation/plans/active/` (or `plans/epics/`)
+  - Listed in `3-technical/3.2-implementation/plans/README.md`
+  - Moved to `completed/` when done
 
 All Plan Mode outputs go to:
 - **Product Planning:** `2-product-foundation/`
@@ -324,15 +330,7 @@ All Plan Mode outputs go to:
   - **Update index** - Add to `plans/README.md` Active Plans table
 - **Marketing Plans:** `4-marketing/go-to-market.md`
 - **Financial Plans:** `5-financing/plans.md`
-- **Financial Analysis:** `5-financing/analysis/` (NOT `3-technical/`)
-- **Financial Preparation:** `5-financing/preparation/` (NOT `3-technical/`)
-- **Team Analysis:** `6-operations/` (NOT `3-technical/`)
 - **ADRs:** `8-governance/decision-log.md`
-
-**Forbidden:**
-- ❌ Creating financial analysis in `3-technical/` (should be in `5-financing/analysis/`)
-- ❌ Creating team analysis in `3-technical/` (should be in `6-operations/`)
-- ❌ Creating preparation files in wrong directories (check file-placement-guide.md)
 
 ## Mode Transition
 

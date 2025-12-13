@@ -7,6 +7,16 @@ It ensures the repository always remains clean, up-to-date, and reflects current
 There is exactly ONE canonical, up-to-date version of every document at any time.  
 Everything else is either historical (archived) or temporary (will be moved/deleted).
 
+## Anti-Sprawl Defaults (mandatory)
+
+- **Update canonical docs first** (no new file if an existing home exists).
+- **Index/log second**: after updating content, update only the trackers needed:
+  - `8-governance/changelog.md` (always)
+  - `3-technical/3.2-implementation/status/progress.md` (when code-related)
+  - `3-technical/3.2-implementation/plans/README.md` (only if a new plan is truly required)
+- **Small-scope changes do not create plans** (see Fix Mode).
+- Research must land in an existing summary/index file first (e.g., `1-ideas/1.1-market-research/summaries.md`).
+
 ## Lifecycle & Movement Rules
 
 | Document Type                          | Current location (active)                 | When executed/completed → move to                                  | Leave behind                                                                 |

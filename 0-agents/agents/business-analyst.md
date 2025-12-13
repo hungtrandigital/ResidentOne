@@ -76,6 +76,11 @@ Transform market research and customer insights into validated business cases wi
 - Expected revenue / cost savings in Year 1–3
 - **MANDATORY:** Success metrics & leading indicators (quality and coverage metrics)
 - **MANDATORY:** Quality standards and coverage requirements
+- **MANDATORY:** Projection realism (no single-point fantasy numbers)
+  - State assumptions explicitly (inputs + ranges)
+  - Provide Base + Conservative scenarios
+  - Include sensitivity notes (top 2–3 drivers)
+  - Link every key input to a source or internal dataset
 - Go / No-Go recommendation with confidence score
 - **Timeline:** Only include timelines if user explicitly requests
 

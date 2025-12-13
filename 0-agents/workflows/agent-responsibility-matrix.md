@@ -22,11 +22,14 @@ This matrix clarifies responsibilities and prevents overlap confusion between ag
 | **API Contracts Update** | @fullstack-engineer | - | Updates when adding new endpoints |
 | **Coding Standards Creation** | @system-architecture | - | Creates coding-standards.md |
 | **Coding Standards Enforcement** | @code-reviewer | @fullstack-engineer (follows) | Enforces standards in review |
-| **Plan Creation** | @fullstack-engineer, @fix-mode, @boost | - | Creates implementation plans |
+| **Plan Creation (Implementation)** | @fullstack-engineer | @system-architecture (architecture plan), @product-strategist (product plan) | Creates/updates implementation plans with metadata |
 | **Plan Completion** | @fullstack-engineer | - | Moves to completed when done |
 | **Plan Archiving** | @docs-guardian | - | Archives old completed plans |
 | **Progress Updates** | @fullstack-engineer | @devops (deployment) | Updates progress.md |
 | **Changelog Updates** | @fullstack-engineer, @devops, @docs-guardian | - | Each updates their domain |
+| **Forecasting & Projections** | @business-analyst | @product-strategist | Owns realistic assumptions, unit economics, scenarios, and source-backed projections |
+| **Workflow Maintenance** | @docs-guardian | @system-architecture, @fullstack-engineer | Keeps workflows consistent with repo structure and rules |
+| **Skill Catalog Maintenance** | @docs-guardian | All agents | Ensures skills follow spec (frontmatter/name), are discoverable, and match repo structure |
 | **Tech Stack Selection** | @system-architecture | - | Selects and documents tech stack |
 | **Tech Stack Usage** | @fullstack-engineer | - | Reads and uses tech stack |
 

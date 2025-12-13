@@ -258,32 +258,48 @@ From resident perspective, platform is comprehensive building hub:
 
 ### 5.2 Revenue Projections
 
-**Year 1 (50-100 buildings):**
-- **Conservative:** VND 75-600M/month (50 buildings × VND 1.5-12M/month)
-- **Optimistic:** VND 1.2B-2.5B/month (100 buildings × VND 12-25M/month)
+**Expected Revenue (Risk-Adjusted):**
+- **Year 1:** VND 1.02B (25-35 buildings)
+- **Year 2:** VND 3.6B (50-80 buildings, 253% YoY growth)
+- **Year 3:** VND 7.2B (80-120 buildings, 100% YoY growth)
 
-**Year 2 (100-200 buildings):**
-- **Conservative:** VND 320M-3.2B/month
-- **Optimistic:** VND 2.4B-5B/month
+**Revenue by Scenario:**
+- **Conservative (20%):** VND 680M (Year 1), VND 2.4B (Year 2), VND 4.8B (Year 3)
+- **Realistic (60%):** VND 1.02B (Year 1), VND 3.6B (Year 2), VND 7.2B (Year 3)
+- **Optimistic (20%):** VND 1.36B (Year 1), VND 4.8B (Year 2), VND 9.6B (Year 3)
 
-**Year 3 (200-500 buildings):**
-- **Conservative:** VND 800M-13B/month
-- **Optimistic:** VND 4.8B-12.5B/month
+**Key Metrics:**
+- **MRR (Month 12):** VND 200-280M
+- **ARR (Year 1):** VND 2.4B-3.36B
+- **ARR Growth:** 400-500% YoY (Year 1), 100-253% YoY (Year 2-3)
 
 ### 5.3 Unit Economics
 
 **Customer Acquisition Cost (CAC):**
-- **Direct Sales:** VND 1-2M per building
-- **Partnerships:** VND 2-4M per building
-- **Community Ambassador:** VND 500K-1M per building
+- **Direct Sales:** VND 10M per building (expected)
+- **Partner Sales:** VND 3M per building
+- **Community Ambassador:** VND 1.5M per building
+- **Loss Leader:** VND 50M per building (strategic)
 
 **Lifetime Value (LTV):**
-- **Average Subscription:** VND 5.6M/month per building
-- **Average Lifetime:** 30 months
-- **LTV:** VND 168M per building (30 months × VND 5.6M/month margin)
+- **Average Subscription:** VND 8M/month per building
+- **Gross Margin:** 52% (VND 4.15M/building/month contribution margin)
+- **Average Lifetime:** 28.6 months (3.5% monthly churn)
+- **LTV:** VND 100M per building (expected, realistic scenario)
 
-**LTV/CAC Ratio:** 42-168× (excellent)
-**Payback Period:** 0.25-7.1 months (varies by strategy)
+**LTV/CAC Ratio:** 10.34× (expected, excellent)
+- Direct Sales: 10×
+- Partner Sales: 33×
+- Community Ambassador: 67×
+
+**Payback Period:** 2.4 months (expected, excellent)
+- Direct Sales: 2.4 months
+- Partner Sales: 0.7 months
+- Community Ambassador: 0.4 months
+
+**Industry Benchmarks:**
+- LTV/CAC: 3-5× (healthy), 5-10× (excellent) - **We exceed at 10.34×**
+- Payback: 6-12 months (healthy), 3-6 months (excellent) - **We exceed at 2.4 months**
 
 ---
 
@@ -519,12 +535,18 @@ From resident perspective, platform is comprehensive building hub:
 
 ### 10.3 Phase 3 Metrics (Growth)
 
-- **Buildings:** 50-100 buildings
-- **Revenue:** VND 75M-2.5B/month
-- **LTV/CAC Ratio:** 42-168×
-- **Payback Period:** 0.25-7.1 months
+- **Buildings:** 50-100 buildings (Year 2-3)
+- **Revenue:** VND 3.6B (Year 2), VND 7.2B (Year 3)
+- **MRR:** VND 400-640M (Month 24)
+- **ARR:** VND 4.8B-7.68B (Year 2), VND 9.6B-15.36B (Year 3)
+- **LTV/CAC Ratio:** 10.34× (expected, excellent)
+- **Payback Period:** 2.4 months (expected, excellent)
+- **Gross Margin:** 52% (consistent)
+- **Operating Margin:** 0% (Year 2, break-even), 25% (Year 3, profitable)
+- **Break-Even:** Month 15.2 (expected, Year 2)
 - **User Retention:** 80%+ (monthly)
 - **Net Promoter Score (NPS):** 50+
+- **Magic Number:** 2.4-9.6× (very efficient)
 
 ---
 
@@ -651,25 +673,39 @@ From resident perspective, platform is comprehensive building hub:
 - Customer validation required (interviews/surveys)
 - Regulatory compliance review needed
 
-### 13.2 Next Steps
+### 14.2 Next Steps
 
-1. **Customer Validation** (Priority 1)
+1. **Secure Initial Funding** (Priority 1)
+   - Raise VND 1B for Year 1 (recommended with buffer)
+   - Sources: Founder contributions + External investors
+   - Timing: Month 1-3
+
+2. **Customer Validation** (Priority 1)
    - Interview BQL/BQT from Trung cấp segment
    - Validate pain points and solution fit
    - Test messaging and value proposition
 
-2. **Document Alignment** (Priority 2)
+3. **Launch Pilot Buildings** (Priority 2)
+   - Select pilot buildings from Trung cấp segment (Month 3-6)
+   - Validate assumptions (CAC, churn, conversion)
+   - Track actual vs. projected metrics
+
+4. **Document Alignment** (Priority 2)
    - Update Marketing Decisions Summary with segment priority
    - Update Product Overview with segment targeting
    - Ensure consistency across all documents
 
-3. **Pilot Planning** (Priority 3)
-   - Select pilot buildings from Trung cấp segment
-   - Plan pilot execution
-   - Define success criteria
+5. **Optimize Unit Economics** (Priority 3)
+   - Focus on high LTV/CAC channels (partners, ambassadors)
+   - Improve retention to increase LTV
+   - Reduce CAC through partnerships
 
 ---
 
-**Status:** Executive Summary Complete - Ready for Review  
-**Next Review:** After customer validation and document updates
+**Status:** Executive Summary Complete - Investment-Ready  
+**Next Review:** After pilot building data (Month 6)  
+**Related Documents:**
+- `5-financing/plans.md` - Comprehensive financing plan
+- `5-financing/projections/investment-ready-financial-model-2025-12.md` - Master financial model
+- `5-financing/projections/framework-based-financial-projections-2025-12.md` - Framework-based projections
 

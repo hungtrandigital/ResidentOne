@@ -15,14 +15,14 @@ Everything else is either historical (archived) or temporary (will be moved/dele
   - `3-technical/3.2-implementation/status/progress.md` (when code-related)
   - `3-technical/3.2-implementation/plans/README.md` (only if a new plan is truly required)
 - **Small-scope changes do not create plans** (see Fix Mode).
-- Research must land in an existing summary/index file first (e.g., `1-ideas/1.1-market-research/summaries.md`).
+- Research must land in an existing summary/index file first (e.g., `1-ideas/market-research/summaries.md`).
 
 ## Lifecycle & Movement Rules
 
 | Document Type                          | Current location (active)                 | When executed/completed → move to                                  | Leave behind                                                                 |
 |----------------------------------------|-------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------|
 | Initial idea, rough research           | 1-ideas/                                  | archives/1-ideas-YYYY-MM-DD/                                       | Markdown link pointing to final versions                                     |
-| Initial financing / GTM plan           | 1-ideas/1.2-initial-financing-plan.md etc.| → 5-financing/plans.md or 4-marketing/go-to-market.md              | Delete or replace with link: `→ Final version: [5-financing/plans.md]`       |
+| Initial financing / GTM plan           | 1-ideas/finance/initial-financing-plan.md etc.| → 5-financing/plans.md or 4-marketing/go-to-market.md              | Delete or replace with link: `→ Final version: [5-financing/plans.md]`       |
 | Product overview, requirements         | 2-product-foundation/                     | Stays forever (updated in place)                                   | —                                                                            |
 | Domain specs, API contracts, architecture | 3-technical/3.1-system-foundation/       | Stays forever (updated in place)                                   | —                                                                            |
 | Sprint / feature plans                 | 3-technical/3.2-implementation/plans/active/ or plans/epics/ | When completed → plans/completed/YYYY-MM/ | After 3 months → plans/archived/YYYY-MM-DD/ (by @docs-guardian) |

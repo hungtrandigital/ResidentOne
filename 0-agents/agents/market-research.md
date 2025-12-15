@@ -10,7 +10,7 @@ Conduct comprehensive market research to validate ideas, understand competition,
 
 ## Core Responsibilities
 
-- **Market Analysis**: Own `1-ideas/1.1-market-research/` and all research activities
+- **Market Analysis**: Own `1-ideas/market-research/` and all research activities
 - **Competitive Intelligence**: Analyze competitors, their features, pricing, and positioning
 - **Customer Research**: Conduct customer interviews, surveys, and validation
 - **Trend Analysis**: Identify market trends, opportunities, and threats
@@ -90,7 +90,7 @@ Conduct comprehensive market research to validate ideas, understand competition,
 ### 5. Document Research Findings
 
 **CRITICAL FILE CREATION RULES:**
-1. **ALWAYS check existing files first** - Search `1-ideas/1.1-market-research/reports/` for similar reports
+1. **ALWAYS check existing files first** - Search `1-ideas/market-research/reports/` for similar reports
 2. **UPDATE existing reports** - If a similar report exists, UPDATE it instead of creating a new one
 3. **Consult docs-guardian** - Before creating ANY new file, consult `@docs-guardian` about:
    - File location
@@ -100,15 +100,15 @@ Conduct comprehensive market research to validate ideas, understand competition,
 5. **ALWAYS update summaries.md** - Every new finding must be added to `summaries.md`
 
 **Documentation Locations:**
-- `1-ideas/1.1-market-research/reports/` - Detailed research reports
+- `1-ideas/market-research/reports/` - Detailed research reports
   - **Naming:** `[topic]-[YYYY-MM].md` (e.g., `competitor-analysis-2025-12.md`, `customer-interviews-q4-2025.md`)
   - **Check first:** Search for existing reports on the same topic
   - **Update if exists:** Don't create duplicates
-- `1-ideas/1.1-market-research/summaries.md` - **MUST UPDATE THIS FILE** with all new findings
+- `1-ideas/market-research/summaries.md` - **MUST UPDATE THIS FILE** with all new findings
   - Add executive summary of new research
   - Link to detailed reports in `reports/` directory
   - Update key findings section
-- `1-ideas/1.1-market-research/resources/` - Reference materials, PDFs, links
+- `1-ideas/market-research/resources/` - Reference materials, PDFs, links
 
 **Report Structure (for new reports only):**
 - Executive summary
@@ -126,7 +126,7 @@ Conduct comprehensive market research to validate ideas, understand competition,
 **CRITICAL:** You MUST update `summaries.md` every time you create or modify research content.
 
 **Update Files:**
-- `1-ideas/1.1-market-research/summaries.md` - **ALWAYS UPDATE THIS FILE**
+- `1-ideas/market-research/summaries.md` - **ALWAYS UPDATE THIS FILE**
   - Add new findings to appropriate sections
   - Link to detailed reports in `reports/` directory
   - Update key insights and trends
@@ -163,10 +163,10 @@ End every session with this standardized block:
 **Research Topic**: [Research topic or question]
 
 **Files created/modified**:
-- `1-ideas/1.1-market-research/reports/[report-name].md` (e.g., `competitor-analysis-2025-12.md`, `customer-interviews-q4-2025.md`)
+- `1-ideas/market-research/reports/[report-name].md` (e.g., `competitor-analysis-2025-12.md`, `customer-interviews-q4-2025.md`)
   - **Note:** Only if new report was created (after checking for existing similar reports)
-- `1-ideas/1.1-market-research/summaries.md` - **ALWAYS UPDATED**
-- `1-ideas/1.1-market-research/resources/[resource-files]` (if applicable)
+- `1-ideas/market-research/summaries.md` - **ALWAYS UPDATED**
+- `1-ideas/market-research/resources/[resource-files]` (if applicable)
 
 **Docs-guardian consultation:** [Yes/No] - If new files were created, docs-guardian was consulted
 
@@ -244,7 +244,7 @@ End every session with this standardized block:
 ## Related Documents
 
 ### Primary Documents
-- **[Market Research Directory](../../1-ideas/1.1-market-research/README.md)** - Research organization and structure
+- **[Market Research Directory](../../1-ideas/market-research/README.md)** - Research organization and structure
 - **[Business Analyst](../business-analyst.md)** - Handoff target for research data
 - **[Product Strategist](../product-strategist.md)** - Uses research for product decisions
 

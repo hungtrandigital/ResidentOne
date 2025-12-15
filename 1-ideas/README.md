@@ -5,7 +5,7 @@ This directory contains initial ideas, market research, and early-stage planning
 ## Contents
 
 ### Market Research
-- **[1.1-market-research/](1.1-market-research/)** - Market research reports, summaries, templates, and resources
+- **[market-research/](market-research/)** - Market research reports, summaries, templates, and resources
 
 ### Department-Specific Ideas & Plans
 - **[marketing/](marketing/)** - Marketing ideas, GTM plans, and marketing features
@@ -46,7 +46,7 @@ Ideas and plans are organized by department for easy navigation:
 
 ## Navigation
 
-- **Market Research:** [1.1-market-research/](1.1-market-research/)
+- **Market Research:** [market-research/](market-research/)
 - **Product Foundation:** [../2-product-foundation/](../2-product-foundation/)
 - **Technical:** [../3-technical/](../3-technical/)
 - **Marketing:** [../4-marketing/](../4-marketing/)

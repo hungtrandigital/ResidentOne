@@ -18,6 +18,7 @@ This file contains summaries of all market research activities and key findings.
 - [HCM Market Analysis - Resident Estimates](reports/hcm-market-analysis-resident-estimates-2025-12.md) - Detailed analysis of HCM market data to estimate residents per building, scale projections, and infrastructure implications
 - [User Model & Platform Architecture Insights](reports/user-model-platform-architecture-2025-12.md) - Critical product architecture insights: user model (residents & renters), single sign-on (SSO), mobile-first strategy, hub concept, system-wide scam blocking
 - [Competitive Analysis & GTM Challenges](reports/competitive-analysis-gtm-challenges-2025-12.md) - Detailed competitive analysis, product strengths, barriers to entry
+- [Market Barriers Analysis](reports/market-barriers-analysis-2025-12.md) - **NEW** - Comprehensive analysis of market barriers, go-to-market challenges, and implementation obstacles when launching to market
 - [Operational Model Analysis](reports/operational-model-analysis-2025-12.md) - Detailed operational model options, support & dispute resolution, funding model
 - [Customer Validation Plan](reports/customer-validation-plan-2025-12.md) - Interview questions and survey design for all stakeholder groups (actionable)
 - [Technical Feasibility - White-Label Architecture](reports/technical-feasibility-white-label-architecture-2025-12.md) - Detailed architecture design, technology stack, development timeline
@@ -196,6 +197,8 @@ This file contains summaries of all market research activities and key findings.
 5. **Technology & Development:** Development complexity, technical resources, infrastructure costs
 6. **Market Education:** Market awareness, education needed, trust building
 
+**See [Market Barriers Analysis](reports/market-barriers-analysis-2025-12.md) for comprehensive analysis of all barriers, mitigation strategies, and go-to-market challenges.**
+
 ### Competitive Landscape
 - **Facebook/Zalo Groups:** ~90%+ market share, HIGH threat - dominant but fragmented
 - **Shopee/Lazada/Tiki:** ~80%+ general e-commerce, MEDIUM threat - different use case
@@ -289,5 +292,5 @@ This file contains summaries of all market research activities and key findings.
 
 ---
 
-**Last Updated:** 2025-12-12
+**Last Updated:** 2025-12-13
 

@@ -12,8 +12,8 @@ These rules are non-negotiable and override any user request that conflicts with
 ## 2. Single Source of Truth Principle
 - Never duplicate information across folders
 - Initial plans live in 1-ideas/ → final, polished versions are moved to the correct folder:
-  → 1.2-initial-financing-plan.md → 5-financing/plans.md
-  → 1.3-initial-go-to-market-plan.md → 4-marketing/go-to-market.md
+  → finance/initial-financing-plan.md → 5-financing/plans.md
+  → marketing/initial-go-to-market-plan.md → 4-marketing/go-to-market.md
 - When a document is moved, leave a Markdown link pointing to the new location
 
 ## 2.1 Document Centralization (mandatory)
@@ -30,7 +30,7 @@ Default behavior is to **update an existing canonical document** instead of crea
 **Anti-sprawl rules:**
 - If a change can be captured as a section update in an existing file, do that.
 - **Do not create a new plan for small-scope changes** (small, isolated fixes or minor adjustments). Only create a plan when the work has multiple steps, coordination needs, or meaningful risk.
-- Research outputs must first land in an existing summary/index file (e.g., `1-ideas/1.1-market-research/summaries.md`) with links to deeper docs if truly necessary.
+- Research outputs must first land in an existing summary/index file (e.g., `1-ideas/market-research/summaries.md`) with links to deeper docs if truly necessary.
 
 ## 3. File Naming & Formatting (strict)
 - Use kebab-case for all files and folders
@@ -56,7 +56,7 @@ Default behavior is to **update an existing canonical document** instead of crea
   - ./INDEX.md (Quick Links)
   - 8-governance/changelog.md
   - 3-technical/3.2-implementation/status/progress.md (if code-related)
-  - Relevant summary files (e.g., `1-ideas/1.1-market-research/summaries.md`)
+  - Relevant summary files (e.g., `1-ideas/market-research/summaries.md`)
 - Always end your response with a short summary of files created/modified and next suggested action
 
 ## 5. Documentation Standards
@@ -174,7 +174,7 @@ phases: [ideas, plan, code, review]  # Which modes passed through (order matters
 | Marketing | Task | MKT | MKT-TASK-031 | `4-marketing/[marketing-backlog]` (to be created) |
 | Finance | Task | FIN | FIN-TASK-012 | `5-financing/[finance-backlog]` (to be created) |
 | Operations | Task | OPS | OPS-TASK-005 | `6-operations/[ops-backlog]` (to be created) |
-| Research | Spike | RES | RES-SPIKE-002 | `1-ideas/1.1-market-research/[research-index]` (to be created) |
+| Research | Spike | RES | RES-SPIKE-002 | `1-ideas/market-research/[research-index]` (to be created) |
 
 ### Attachment Rules (MANDATORY)
 

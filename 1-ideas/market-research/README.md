@@ -1,4 +1,4 @@
-# 1.1-market-research/ — Market Research
+# market-research/ — Market Research
 
 This directory contains all market research materials, reports, summaries, templates, and resources.
 

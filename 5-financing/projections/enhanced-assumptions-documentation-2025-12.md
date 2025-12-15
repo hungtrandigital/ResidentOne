@@ -415,9 +415,9 @@ This document provides **comprehensive documentation** of all assumptions used i
 - Will expand to more segments over time
 
 **Source:**
-- Market research: `1-ideas/1.1-market-research/reports/comprehensive-market-research-2025-12.md`
-- Building segment analysis: `1-ideas/1.1-market-research/reports/building-segment-analysis-behavior-differences-2025-12.md`
-- HCM market analysis: `1-ideas/1.1-market-research/reports/hcm-market-analysis-resident-estimates-2025-12.md`
+- Market research: `1-ideas/market-research/reports/comprehensive-market-research-2025-12.md`
+- Building segment analysis: `1-ideas/market-research/reports/building-segment-analysis-behavior-differences-2025-12.md`
+- HCM market analysis: `1-ideas/market-research/reports/hcm-market-analysis-resident-estimates-2025-12.md`
 - Internal estimate: Based on market sizing and segmentation
 
 **Validation Plan:**
@@ -724,9 +724,9 @@ This document provides **comprehensive documentation** of all assumptions used i
 - Will expand to more segments over time
 
 **Source:**
-- Market research: `1-ideas/1.1-market-research/reports/comprehensive-market-research-2025-12.md`
-- HCM market analysis: `1-ideas/1.1-market-research/reports/hcm-market-analysis-resident-estimates-2025-12.md`
-- Building segment analysis: `1-ideas/1.1-market-research/reports/building-segment-analysis-behavior-differences-2025-12.md`
+- Market research: `1-ideas/market-research/reports/comprehensive-market-research-2025-12.md`
+- HCM market analysis: `1-ideas/market-research/reports/hcm-market-analysis-resident-estimates-2025-12.md`
+- Building segment analysis: `1-ideas/market-research/reports/building-segment-analysis-behavior-differences-2025-12.md`
 - Internal estimate: Based on market sizing and segmentation
 
 **Validation Plan:**

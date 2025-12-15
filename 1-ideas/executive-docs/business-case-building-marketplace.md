@@ -12,7 +12,7 @@ This business case covers an **integrated platform** with two product streams:
 1. **Marketplace Stream:** Resident-to-resident marketplace, convenience stores, brands
 2. **Management Support Stream:** Centralized resident data, BQL/BQT operational support
 
-**Recommended Approach:** Integrated platform with phased rollout (see [Product Directions Analysis](1.1-market-research/reports/product-directions-analysis-2025-12.md) for details)
+**Recommended Approach:** Integrated platform with phased rollout (see [Product Directions Analysis](../market-research/reports/product-directions-analysis-2025-12.md) for details)
 
 ## Executive Summary
 
@@ -31,7 +31,7 @@ This business case covers an **integrated platform** with two product streams:
 - **Mobile-First:** Phone number-based authentication, native mobile app
 - **System-Wide Trust & Safety:** If user scams in one building, blocked from all buildings
 
-**Recommendation:** **PROCEED WITH VALIDATION** - Comprehensive research shows clear market opportunity with validated pain points and strategic approach. See [Comprehensive Market Research Report](1.1-market-research/reports/comprehensive-market-research-2025-12.md) for complete analysis.
+**Recommendation:** **PROCEED WITH VALIDATION** - Comprehensive research shows clear market opportunity with validated pain points and strategic approach. See [Comprehensive Market Research Report](../market-research/reports/comprehensive-market-research-2025-12.md) for complete analysis.
 
 **Research Status:**
 - ✅ Market opportunity analysis ✅ Completed
@@ -378,15 +378,15 @@ The initial research shows a clear market opportunity with validated pain points
 - ✅ **Business Model Framework:** Revenue model outlined
 - ✅ **Risk Analysis:** 12 risks identified and analyzed
 
-**See [Research Gaps Report](1.1-market-research/reports/research-gaps-remaining-questions-2025-12.md) for complete list of remaining questions**
+**See [Research Gaps Report](../market-research/reports/research-gaps-remaining-questions-2025-12.md) for complete list of remaining questions**
 
 **Next Agent:** @market-research - Please conduct market sizing research and customer validation interviews
 
 ---
 
 **Related Documents:**
-- [Market Research Report](1.1-market-research/reports/building-marketplace-initial-analysis-2025-01.md)
-- [Market Research Summaries](1.1-market-research/summaries.md)
+- [Market Research Report](../market-research/reports/building-marketplace-initial-analysis-2025-01.md)
+- [Market Research Summaries](../market-research/summaries.md)
 - [Risk Register](../../8-governance/risk-register.md)
 
 

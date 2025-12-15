@@ -36,7 +36,7 @@ market/
 ├── 1-ideas/
 │   ├── README.md
 │   ├── summaries.md
-│   ├── 1.1-market-research/
+│   ├── market-research/
 │   │   ├── README.md
 │   │   ├── reports/
 │   │   ├── summaries.md
@@ -195,7 +195,7 @@ market/
 - **Shared code:** Place in `systems/shared/` for code used across systems
 
 ### Documentation Files
-- **Market research:** `1-ideas/1.1-market-research/reports/`
+- **Market research:** `1-ideas/market-research/reports/`
 - **Product requirements:** `2-product-foundation/requirements/`
 - **Architecture docs:** `3-technical/3.1-system-foundation/architecture/`
 - **Implementation plans:** `3-technical/3.2-implementation/plans/`

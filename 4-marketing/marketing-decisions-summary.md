@@ -136,7 +136,7 @@ This document summarizes all finalized marketing, brand, and go-to-market decisi
    - Rationale: Large volume potential, but lower willingness to pay
    - Approach: Different model needed (government support?)
 
-**See [Building Segment Analysis](1-ideas/1.1-market-research/reports/building-segment-analysis-behavior-differences-2025-12.md) for detailed analysis.**
+**See [Building Segment Analysis](1-ideas/market-research/reports/building-segment-analysis-behavior-differences-2025-12.md) for detailed analysis.**
 
 ### 3.5 Building Types Analysis (To Be Researched)
 

@@ -16,7 +16,7 @@ PHASE SEQUENCE & AGENT MATRIX
 | Phase                  | Mode       | Primary Agent             | Supporting Agents                     | Output Location                               | Hand-off To               |
 |-----------------------|------------|---------------------------|---------------------------------------|-----------------------------------------------|---------------------------|
 | 0. Bootstrap          | —          | Human / docs-guardian     | —                                     | —                                             | @market-research          |
-| 1. Market Research    | ideas      | market-research           | business-analyst                      | 1-ideas/1.1-market-research/                  | @product-strategist       |
+| 1. Market Research    | ideas      | market-research           | business-analyst                      | 1-ideas/market-research/                  | @product-strategist       |
 | 2. Product Strategy   | ideas/plan | product-strategist        | creative-director, business-analyst   | 2-product-foundation/                         | @system-architecture      |
 | 3. System Architecture| plan       | system-architecture       | ui-ux-designer                        | 3-technical/3.1-system-foundation/            | @fullstack-engineer       |
 | 4. Implementation     | execution  | fullstack-engineer        | devops, code-reviewer                 | systems/[system-name]/ + 3.2-implementation/     | @code-reviewer            |

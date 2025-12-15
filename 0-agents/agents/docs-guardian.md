@@ -99,6 +99,13 @@ Ensure the repository ALWAYS reflects current reality:
 - Duplicate plans for same feature
 - Completed plans not moved to `plans/completed/`
 
+**Idea Request Triage (human-submitted ideas):**
+- Always classify the idea first (market-research, features, marketing, finance, technical, operations, product, executive-docs) before any writing.
+- Check the relevant Ideas Status Table (newest-first) for an existing or related row; open the linked doc and inspect `Status/Stage/Last Updated`.
+- If it exists: continue in the same doc and row—update the row (Status/Stage/Owner/Last Updated) and doc content; do **not** create a new idea file.
+- If it does not exist: approve placement/name, then allow creation of the new doc and add a row (newest-first) with `Last Updated` set.
+- Enforce newest-first ordering in all Ideas Status Tables and require row updates whenever content/status changes.
+
 **Action:** 
 1. Identify violations (especially generic report files and plan violations)
 2. Archive or merge duplicate files/plans

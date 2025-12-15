@@ -31,6 +31,30 @@ Use Ideas Mode when:
 
 ## Core Activities
 
+### Who Does What (Ideas Mode)
+- **@market-research:** Owns `1-ideas/market-research/` (reports, summaries, resources); update `summaries.md` every time.
+- **@business-analyst:** Owns `1-ideas/finance/initial-financing-plan.md`, `1-ideas/marketing/initial-go-to-market-plan.md`, and business cases in `1-ideas/business-case-[name].md`; update existing before creating.
+- **@product-strategist:** Converts approved ideas into backlog/requirements; decides when to move to Plan/Execution.
+- **@docs-guardian:** Enforces placement/naming; blocks generic/duplicate files; keeps INDEX and links correct.
+
+### Existing vs New Idea Rule
+- **If idea already exists:** Update the existing file and its `summaries.md` entry (market research → `market-research/summaries.md`; features → `features/summaries.md`; plans → `finance/initial-financing-plan.md` or `marketing/initial-go-to-market-plan.md`). No new file unless scope materially changes and docs-guardian approves.
+- **If idea is new:** After consulting docs-guardian, create the correctly named file in the right folder (`market-research/reports/[topic]-[YYYY-MM].md` or `features/feature-[name].md`), then add a status row/link in the relevant `summaries.md`.
+
+### When a human submits a new idea request (triage-first)
+1) **Classify the idea** (before any writing):
+  - New product research (market-research), feature idea (features), marketing idea (marketing), finance idea (finance), technical/ops/product concepts (respective folder), or executive summary (executive-docs).
+2) **Check for existing coverage:**
+  - Look in the relevant Ideas Status Table (newest-first tables in each folder) for a matching or related item.
+  - Open the linked doc if present; note current `Status`, `Stage`, `Last Updated`.
+3) **If it exists:**
+  - Update the existing row (Status/Stage/Owner/Last Updated) and the linked doc with the new ask or findings.
+  - Summarize back to the human what exists and what you will update (or what is already covered).
+4) **If it does not exist:**
+  - Ask docs-guardian to confirm placement/name, then create the new doc with kebab-case and add a row to the table (newest-first order).
+5) **Respond with next steps:**
+  - Say which category you used, whether it was existing vs new, what you updated, and what you will analyze next. Keep traceability to the table row and linked doc.
+
 ### 0. Determine Idea Type & Read Context (ALWAYS START HERE)
 
 **Before starting any research or analysis:**
@@ -107,22 +131,22 @@ Use Ideas Mode when:
 - **Risk Assessment:** Identify risks specific to feature addition (technical, user experience, business)
 
 ### 3. Initial Planning
-- **Initial Financing Plan:** Create early-stage financial projections in `1-ideas/1.2-initial-financing-plan.md`
-- **Initial Go-to-Market Plan:** Draft early GTM strategy in `1-ideas/1.3-initial-go-to-market-plan.md`
+- **Initial Financing Plan:** Create early-stage financial projections in `1-ideas/finance/initial-financing-plan.md`
+- **Initial Go-to-Market Plan:** Draft early GTM strategy in `1-ideas/marketing/initial-go-to-market-plan.md`
 - **Business Cases:** Write business cases for major initiatives with go/no-go recommendations
 
 ### 4. Documentation
 
 #### For New Product Ideas:
-- **Research Reports:** Document findings in `1-ideas/1.1-market-research/reports/`
-- **Summaries:** Maintain executive summaries in `1-ideas/1.1-market-research/summaries.md`
+- **Research Reports:** Document findings in `1-ideas/market-research/reports/`
+- **Summaries:** Maintain executive summaries in `1-ideas/market-research/summaries.md`
 - **Business Cases:** Create business case documents in `1-ideas/business-case-[product-name].md`
 
 #### For Feature Ideas:
-- **Feature Ideas:** Document feature ideas in `1-ideas/[department]/feature-[feature-name].md` (e.g., `technical/`, `operations/`, `marketing/`, `product/`)
-- **Feature Analysis:** Create analysis documents in `1-ideas/[department]/analysis/` (if needed)
-- **Feature Summaries:** Maintain feature ideas summary in `1-ideas/summaries.md`
-- **Business Cases:** Create feature business case in `1-ideas/[department]/business-case-[feature-name].md`
+- **Feature Ideas:** Document feature ideas in `1-ideas/features/feature-[feature-name].md`
+- **Feature Analysis:** Create analysis documents in `1-ideas/features/analysis/`
+- **Feature Summaries:** Maintain feature ideas summary in `1-ideas/features/summaries.md`
+- **Business Cases:** Create feature business case in `1-ideas/features/business-case-[feature-name].md`
 - **Integration Plans:** Document integration considerations in feature documents
 
 ## Allowed Actions
@@ -131,9 +155,9 @@ Use Ideas Mode when:
 - **Read `shared/context/current-scope.md`** - Always read scope before starting work
 - **Update `shared/context/current-scope.md`** - If research reveals scope issues, ask user and update scope
 - **UPDATE existing files** in `1-ideas/` directory (preferred)
-  - Update `1-ideas/1.1-market-research/summaries.md` with new findings
-  - Update existing reports in `1-ideas/1.1-market-research/reports/` if they exist
-  - Update `1-ideas/1.2-initial-financing-plan.md` and `1-ideas/1.3-initial-go-to-market-plan.md`
+  - Update `1-ideas/market-research/summaries.md` with new findings
+  - Update existing reports in `1-ideas/market-research/reports/` if they exist
+  - Update `1-ideas/finance/initial-financing-plan.md` and `1-ideas/marketing/initial-go-to-market-plan.md`
 - **CREATE new files** ONLY when:
   1. You have consulted `@docs-guardian` about file location and naming
   2. The file follows kebab-case naming (e.g., `competitor-analysis-2025-12.md`, NOT `COMPLETE_REPORT.md`)
@@ -156,7 +180,7 @@ Use Ideas Mode when:
 - **Create files without consulting docs-guardian** → Always check file location and naming with `@docs-guardian` first
 - **Create duplicate files** → Always check if a similar file exists and update it instead
 - **Create files outside allowed structure** → All files must be in `1-ideas/` subdirectories
-- **Skip updating summaries.md** → Always update `1-ideas/1.1-market-research/summaries.md` when creating new reports
+- **Skip updating summaries.md** → Always update `1-ideas/market-research/summaries.md` when creating new reports
 - Create detailed product requirements (use Plan Mode)
 - Write code or technical specifications (use Code Mode)
 - Create final marketing plans (initial only, final goes to `4-marketing/`)
@@ -177,17 +201,17 @@ Use Ideas Mode when:
 All Ideas Mode outputs go to:
 
 #### For New Product Ideas:
-- **Market Research:** `1-ideas/1.1-market-research/`
+- **Market Research:** `1-ideas/market-research/`
   - `reports/` - Detailed research reports (named: `[topic]-[YYYY-MM].md`, e.g., `competitor-analysis-2025-12.md`)
   - `summaries.md` - **ALWAYS UPDATE THIS FILE** with new findings (do NOT create new summary files)
   - `resources/` - Reference materials
 - **Business Cases:** `1-ideas/business-case-[product-name].md` (kebab-case, descriptive)
 - **Initial Plans:** 
-  - `1-ideas/1.2-initial-financing-plan.md` (→ final: `5-financing/plans.md`) - **UPDATE, don't recreate**
-  - `1-ideas/1.3-initial-go-to-market-plan.md` (→ final: `4-marketing/go-to-market.md`) - **UPDATE, don't recreate**
+  - `1-ideas/finance/initial-financing-plan.md` (→ final: `5-financing/plans.md`) - **UPDATE, don't recreate**
+  - `1-ideas/marketing/initial-go-to-market-plan.md` (→ final: `4-marketing/go-to-market.md`) - **UPDATE, don't recreate**
 
 #### For Feature Ideas:
-- **Feature Ideas:** `1-ideas/[department]/` (organized by department: `marketing/`, `technical/`, `operations/`, `finance/`, `product/`)
+- **Feature Ideas:** `1-ideas/features/`
   - `feature-[feature-name].md` - Feature idea document (e.g., `feature-user-dashboard.md`)
   - `summaries.md` - **ALWAYS UPDATE THIS FILE** with new feature ideas (do NOT create new summary files)
   - `analysis/` - Feature analysis documents (e.g., `analysis-[feature-name]-impact.md`)
@@ -215,19 +239,19 @@ All Ideas Mode outputs go to:
 Before creating or modifying ANY file in Ideas Mode:
 
 #### For New Product Ideas:
-1. ✅ **Read existing files first** - Check `1-ideas/1.1-market-research/summaries.md` and `reports/` directory
+1. ✅ **Read existing files first** - Check `1-ideas/market-research/summaries.md` and `reports/` directory
 2. ✅ **Check for similar files** - Search for existing files with similar content
 3. ✅ **Consult docs-guardian** - If creating a new file, ask `@docs-guardian` about location and naming
-4. ✅ **Update summaries.md** - Always update `1-ideas/1.1-market-research/summaries.md` when adding new research
+4. ✅ **Update summaries.md** - Always update `1-ideas/market-research/summaries.md` when adding new research
 5. ✅ **Follow naming convention** - Use kebab-case, descriptive names, dates (YYYY-MM format)
 6. ✅ **Link in summaries.md** - Add link to new report in `summaries.md`
 
 #### For Feature Ideas:
 1. ✅ **Read existing product docs first** - Check `2-product-foundation/`, `3-technical/3.1-system-foundation/architecture/domain-specs.md`
-2. ✅ **Check existing feature ideas** - Check `1-ideas/summaries.md` and existing feature documents in department folders
+2. ✅ **Check existing feature ideas** - Check `1-ideas/features/summaries.md` and existing feature documents
 3. ✅ **Check product backlog** - Review `2-product-foundation/2.2-product-backlog/backlog.md` for similar features
 4. ✅ **Consult docs-guardian** - If creating a new file, ask `@docs-guardian` about location and naming
-5. ✅ **Update summaries.md** - Always update `1-ideas/summaries.md` when adding new feature ideas
+5. ✅ **Update summaries.md** - Always update `1-ideas/features/summaries.md` when adding new feature ideas
 6. ✅ **Follow naming convention** - Use kebab-case, descriptive names (e.g., `feature-[feature-name].md`)
 7. ✅ **Link in summaries.md** - Add link to new feature idea in `summaries.md`
 8. ✅ **Consider integration** - Document how feature integrates with existing product
@@ -253,8 +277,8 @@ When in Ideas Mode, use this format:
 **Idea Type**: [New Product Idea / Feature Idea]
 
 **Files created/modified**:
-- For New Product: `1-ideas/1.1-market-research/[files]`, `1-ideas/business-case-[name].md`
-- For Feature: `1-ideas/[department]/feature-[name].md`, `1-ideas/[department]/business-case-[name].md`
+- For New Product: `1-ideas/market-research/[files]`, `1-ideas/business-case-[name].md`
+- For Feature: `1-ideas/features/feature-[name].md`, `1-ideas/features/business-case-[name].md`
 - `8-governance/risk-register.md`
 
 **Key Findings**:

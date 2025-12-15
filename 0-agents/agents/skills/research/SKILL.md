@@ -61,7 +61,7 @@ You will analyze gathered information by:
 ### Phase 4: Report Generation
 
 **Notes (AI Factory output locations):**
-- Prefer updating existing canonical files first (e.g., `1-ideas/1.1-market-research/summaries.md`, `2-product-foundation/2.2-product-backlog/backlog.md`).
+- Prefer updating existing canonical files first (e.g., `1-ideas/market-research/summaries.md`, `2-product-foundation/2.2-product-backlog/backlog.md`).
 - If a standalone report is necessary, it must be attached to an existing plan in `3-technical/3.2-implementation/plans/` (and may require @docs-guardian consultation before creating a new file).
 
 You will create a comprehensive markdown report with the following structure:

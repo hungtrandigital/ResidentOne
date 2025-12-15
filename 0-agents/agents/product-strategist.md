@@ -206,7 +206,7 @@ End every session with this standardized block:
 ## Related Documents
 
 ### Primary Documents
-- **[Market Research](../../1-ideas/1.1-market-research/README.md)** - Market research and validation data
+- **[Market Research](../../1-ideas/market-research/README.md)** - Market research and validation data
 - **[Business Analyst](../business-analyst.md)** - Business cases and financial models
 - **[Product Foundation](../../2-product-foundation/README.md)** - Product documentation structure
 

@@ -24,14 +24,24 @@ factory/
 ├── 0-agents/ (already exists - DO NOT MODIFY)
 ├── 1-ideas/
 │   ├── README.md
-│   ├── 1.1-market-research/
+│   ├── market-research/
 │   │   ├── README.md
 │   │   ├── reports/
 │   │   ├── summaries.md
 │   │   ├── templates/
 │   │   └── resources/
-│   ├── 1.2-initial-financing-plan.md
-│   └── 1.3-initial-go-to-market-plan.md
+│   ├── finance/
+│   │   ├── README.md
+│   │   └── initial-financing-plan.md
+│   ├── marketing/
+│   │   ├── README.md
+│   │   └── initial-go-to-market-plan.md
+│   ├── product/
+│   │   ├── README.md
+│   │   └── features/
+│   │       ├── README.md
+│   │       ├── summaries.md
+│   │       └── analysis/
 ├── 2-product-foundation/
 │   ├── README.md
 │   ├── 2.1-product-overview.md
@@ -91,7 +101,9 @@ factory/
 │   └── projections/
 ├── 6-operations/
 │   ├── README.md
-│   ├── team-structure.md
+│   ├── team/
+│   │   ├── README.md
+│   │   └── team-structure.md
 │   ├── legal/
 │   ├── hr/
 │   └── vendor-contracts/
@@ -239,7 +251,7 @@ If source code files exist in the codebase, perform code quality analysis:
 | Current Path | Proposed Location | Proposed Name | Category | Reasoning |
 |-------------|------------------|---------------|----------|-----------|
 | `[current-path]/architecture.md` | `3-technical/3.1-system-foundation/architecture/` | `domain-specs.md` | Technical | Architecture documentation |
-| `[current-path]/[research-file].txt` | `1-ideas/1.1-market-research/reports/` | `[research-file]-YYYYMMDD.md` | Research | Market research notes |
+| `[current-path]/[research-file].txt` | `1-ideas/market-research/reports/` | `[research-file]-YYYYMMDD.md` | Research | Market research notes |
 
 ### Configuration Files
 | Current Path | Proposed Location | Proposed Name | Category | Reasoning |
@@ -288,7 +300,7 @@ If source code files exist in the codebase, perform code quality analysis:
 ## Migration Plan
 
 ### Phase 1: Create Missing Structure
-- [ ] Create `1-ideas/1.1-market-research/reports/` directory
+- [ ] Create `1-ideas/market-research/reports/` directory
 - [ ] For multi-system: Create `systems/` and `systems/[system-name]/` directories
 - [ ] Create `systems/[system-name]/frontend/` directory
 - ...
@@ -300,7 +312,7 @@ If source code files exist in the codebase, perform code quality analysis:
 
 ### Phase 3: Move Documentation
 - [ ] Move `[current-path]/architecture.md` → `3-technical/3.1-system-foundation/architecture/domain-specs.md`
-- [ ] Rename: `[current-path]/[research-file].txt` → `1-ideas/1.1-market-research/reports/[research-file]-YYYYMMDD.md`
+- [ ] Rename: `[current-path]/[research-file].txt` → `1-ideas/market-research/reports/[research-file]-YYYYMMDD.md`
 - ...
 
 ### Phase 4: Update References
@@ -428,7 +440,7 @@ Create a comprehensive final report:
 | Original Location | New Location | Status |
 |------------------|--------------|--------|
 | `[original-path]/architecture.md` | `3-technical/3.1-system-foundation/architecture/domain-specs.md` | ✅ Moved, renamed, links updated |
-| `[original-path]/[research-file].txt` | `1-ideas/1.1-market-research/reports/[research-file]-YYYYMMDD.md` | ✅ Moved, renamed, converted to markdown |
+| `[original-path]/[research-file].txt` | `1-ideas/market-research/reports/[research-file]-YYYYMMDD.md` | ✅ Moved, renamed, converted to markdown |
 
 ## Naming Convention Updates
 - ✅ Renamed `[generic-name].md` → `[descriptive-name].md`

@@ -4,6 +4,59 @@ This file tracks all changes to the project structure, documentation, and codeba
 
 ---
 
+## 2025-12-13 — 1-ideas Restructure (Boost Mode Alignment)
+
+### Summary
+- **Action:** Restructured `1-ideas/` directory to align with boost mode template
+- **Renamed:** `1.1-market-research/` → `market-research/` (removed numbered prefix)
+- **Updated:** All references across codebase (INDEX.md, README.md files, agent definitions, documentation)
+- **Status:** ✅ Complete - Structure aligned with boost mode template
+
+### Changes
+- **Directory Renamed:**
+  - `1-ideas/1.1-market-research/` → `1-ideas/market-research/`
+  
+- **Files Updated:**
+  - `1-ideas/README.md` - Updated references
+  - `1-ideas/market-research/README.md` - Updated title
+  - `INDEX.md` - Updated directory structure
+  - `0-agents/agents/skills/research/SKILL.md` - Updated path reference
+  - `0-agents/_core/global-rules.md` - Updated path reference
+  - `0-agents/mode/fix.md` - Updated path reference
+  - `0-agents/agents/product-strategist.md` - Updated path reference
+  - `4-marketing/marketing-decisions-summary.md` - Updated link
+  - `5-financing/projections/enhanced-assumptions-documentation-2025-12.md` - Updated references
+  - `1-ideas/executive-docs/business-case-building-marketplace.md` - Updated links
+  - `8-governance/audits/placement/placement-audit-1-ideas-2025-12-13.md` - Updated references
+  - `8-governance/reviews/agent-structure-compliance-review-2025-12-13.md` - Updated reference
+
+### Rationale
+- Aligns with boost mode template structure (no numbered prefixes for subdirectories)
+- Matches Factory template structure defined in boost mode
+- Improves consistency across project structure
+
+---
+
+## 2025-12-13 — Market Barriers Analysis
+
+### Summary
+- **Action:** Created comprehensive market barriers analysis report
+- **Created:** `1-ideas/market-research/reports/market-barriers-analysis-2025-12.md`
+- **Updated:** `1-ideas/market-research/summaries.md` - Added reference to new barriers analysis
+- **Status:** ✅ Complete - Comprehensive barriers analysis created
+
+### New Report
+- **Market Barriers Analysis** - Comprehensive analysis of:
+  - Market barriers (network effects, user adoption, BQT/BQL resistance)
+  - Operational barriers (quality control, dispute resolution, business onboarding)
+  - Financial barriers (initial investment, revenue uncertainty)
+  - Technical barriers (development complexity, infrastructure)
+  - Regulatory barriers (e-commerce regulations, data protection)
+  - Competitive barriers (Facebook/Zalo dominance, new entrants)
+  - Strategic mitigation framework and recommendations
+
+---
+
 ## 2025-12-13 — 6-Operations Folder Reorganization
 
 ### Summary
@@ -798,12 +851,12 @@ Team structure and gaps analysis are operations/HR concerns, not technical imple
 - **Status:** ✅ Complete - Clean, organized research structure
 
 ### Files Created
-- `1-ideas/1.1-market-research/reports/comprehensive-market-research-2025-12.md` - **MASTER REPORT** - Consolidated multi-dimensional analysis
-- `1-ideas/1.1-market-research/reports/ARCHIVED-REPORTS.md` - Documentation of archived reports
+- `1-ideas/market-research/reports/comprehensive-market-research-2025-12.md` - **MASTER REPORT** - Consolidated multi-dimensional analysis
+- `1-ideas/market-research/reports/ARCHIVED-REPORTS.md` - Documentation of archived reports
 
 ### Files Updated
-- `1-ideas/1.1-market-research/summaries.md` - Updated to reference master report
-- `1-ideas/1.1-market-research/README.md` - Updated with report structure
+- `1-ideas/market-research/summaries.md` - Updated to reference master report
+- `1-ideas/market-research/README.md` - Updated with report structure
 - `1-ideas/business-case-building-marketplace.md` - Updated with naming strategy and research status
 - `2-product-foundation/2.1-product-overview.md` - Updated with refined positioning
 
@@ -863,7 +916,7 @@ Team structure and gaps analysis are operations/HR concerns, not technical imple
 
 #### Section README Files (with routing)
 - `1-ideas/README.md`
-- `1-ideas/1.1-market-research/README.md`
+- `1-ideas/market-research/README.md`
 - `2-product-foundation/README.md`
 - `3-technical/README.md`
 - `3-technical/3.1-system-foundation/` (infrastructure.md, architecture/, design-standards/)
@@ -880,7 +933,7 @@ Team structure and gaps analysis are operations/HR concerns, not technical imple
 - `archives/README.md`
 
 #### Placeholder Files
-- `1-ideas/1.1-market-research/summaries.md`
+- `1-ideas/market-research/summaries.md`
 - `1-ideas/1.2-initial-financing-plan.md`
 - `1-ideas/1.3-initial-go-to-market-plan.md`
 - `2-product-foundation/2.1-product-overview.md`
@@ -908,7 +961,7 @@ Team structure and gaps analysis are operations/HR concerns, not technical imple
 
 #### Main Sections
 - `1-ideas/` with subdirectories:
-  - `1.1-market-research/` (reports/, templates/, resources/)
+  - `market-research/` (reports/, templates/, resources/)
 - `2-product-foundation/` with subdirectories:
   - `2.2-product-backlog/`
   - `requirements/`

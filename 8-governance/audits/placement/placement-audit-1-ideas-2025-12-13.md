@@ -10,7 +10,7 @@ All documents in `1-ideas/` have been verified and are correctly placed accordin
 ## Structure Verification
 
 ### ✅ Market Research
-- **Location:** `1.1-market-research/`
+- **Location:** `market-research/`
 - **Status:** Correct - Contains market research reports, summaries, templates, and resources
 - **Files:** 20+ reports, summaries.md, templates/, resources/
 
@@ -110,7 +110,7 @@ All references to files in `1-ideas/` have been verified:
 **Status:** ✅ **ALL FILES WELL-PLACED**
 
 All documents in `1-ideas/` are correctly organized by department:
-- Market research in `1.1-market-research/`
+- Market research in `market-research/`
 - Marketing ideas in `marketing/`
 - Technical ideas in `technical/`
 - Operations ideas in `operations/`

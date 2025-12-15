@@ -99,7 +99,7 @@ Think of each **work item** (epic, feature slice, bug fix, marketing task, finan
 | **Marketing** | MKT | Campaigns, experiments, content tasks | `4-marketing/[TBD-marketing-backlog].md` |
 | **Finance** | FIN | Budget, projection, financing tasks | `5-financing/[TBD-finance-backlog].md` |
 | **Operations** | OPS | Hiring, process, legal, vendor tasks | `6-operations/[TBD-ops-backlog].md` |
-| **Research** | RES | Technical spikes, market research, competitive analysis | `1-ideas/1.1-market-research/[TBD-research-index].md` |
+| **Research** | RES | Technical spikes, market research, competitive analysis | `1-ideas/market-research/[TBD-research-index].md` |
 
 ---
 

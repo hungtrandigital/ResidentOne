@@ -144,7 +144,7 @@ Before starting, classify the issue:
 
 ### 2. Research (If Needed)
 - If root cause is unclear, use web search (if available) to research similar issues
-- Check `1-ideas/1.1-market-research/` for existing research
+- Check `1-ideas/market-research/` for existing research
 - Gather information about similar issues, solutions, best practices
 - Document research findings
 
@@ -224,8 +224,7 @@ Before starting, classify the issue:
   - `problem-solving` - Problem-solving techniques
   - `sequential-thinking` - Sequential thought process
   - Other relevant skills as needed
-- **For multi-system projects:** Make code changes in `systems/[system-name]/`
-- **For single-system projects:** Make code changes in `3-technical/3.4-source-code/` (legacy)
+- **Make code changes in `systems/[system-name]/`** - All source code lives in systems directory
 - Write tests to verify fixes
 - Run tests using project's package manager
 - Update documentation if fix affects it

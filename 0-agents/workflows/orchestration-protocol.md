@@ -6,9 +6,10 @@ All agents must obey this protocol without exception.
 ## Core Principles
 
 1. One source of truth → the repository file system + INDEX.md
-2. Zero surprise → never modify a file that another agent is currently working on
-3. Explicit handoff → always end your output with a clear next agent + next task
-4. No infinite loops → maximum 2 review cycles per task before escalating to human
+2. **Structure compliance** → ALL files MUST follow the directory structure defined in INDEX.md
+3. Zero surprise → never modify a file that another agent is currently working on
+4. Explicit handoff → always end your output with a clear next agent + next task
+5. No infinite loops → maximum 2 review cycles per task before escalating to human
 
 ## Supported Orchestration Patterns
 
@@ -60,7 +61,10 @@ Coordination rules:
 - All parallel agents must read that plan section before starting
 - Final merge is done by a designated “Integration Agent” (usually @fullstack-engineer or @devops)
 
-If a separate coordination file is truly necessary, **consult @docs-guardian first** and use a kebab-case, non-generic filename placed in the correct folder.
+If a separate coordination file is truly necessary:
+1. **Read INDEX.md** - Verify correct location for coordination files
+2. **Consult @docs-guardian** - Get confirmation on location and naming
+3. **Use kebab-case, non-generic filename** - Place in correct folder per INDEX.md structure
 
 ### 3. Review & Approval Loops
 Every execution or parallel track must end with a review cycle:
@@ -102,18 +106,29 @@ At the end of every agent response, include this block:
 **Priority**: High / Medium / Low
 ```markdown
 ### 6. Forbidden Patterns (will be rejected)
-- Two agents editing the same file simultaneously
-- Skipping review step for code or architecture changes
-- Creating files outside the defined folder structure
-- Deleting files without moving them to archives/ first
-- **Creating generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md`, `summary.md`, `log.md` are FORBIDDEN
-- **Creating files without consulting docs-guardian** - Agents must consult `@docs-guardian` before creating new files
-- **Creating duplicate files** - Always check for existing files and update them instead of creating new ones
-- **Not updating summary/log files** - Always update existing summary files (e.g., `summaries.md`) instead of creating new ones
-- **Creating plans without checking existing** - Always check `plans/active/` and `plans/epics/` before creating new plan
-- **Creating plans without metadata** - All plans MUST include metadata (status, type, priority, dates, epic, system)
-- **Creating plans without updating index** - All new plans MUST be added to `plans/README.md` index
-- **Leaving completed plans in active** - Move completed plans to `plans/completed/[YYYY-MM]/` when implementation is done
+
+**Structure Violations:**
+- ❌ **Creating files outside the defined folder structure** - ALL files MUST be in locations defined in INDEX.md
+- ❌ **Not reading INDEX.md before creating files** - MANDATORY: Read INDEX.md first to understand structure
+- ❌ **Not consulting file-placement-guide.md** - MANDATORY: Check `0-agents/_core/file-placement-guide.md` for placement rules
+- ❌ **Creating files without verifying location** - Always verify location matches INDEX.md structure
+
+**File Creation Violations:**
+- ❌ **Creating files without consulting docs-guardian** - Agents must consult `@docs-guardian` before creating new files
+- ❌ **Creating duplicate files** - Always check for existing files and update them instead of creating new ones
+- ❌ **Creating generic report files** - Files like `COMPLETE_REPORT.md`, `FULL_REPORT.md`, `report.md`, `summary.md`, `log.md` are FORBIDDEN
+- ❌ **Not updating summary/log files** - Always update existing summary files (e.g., `summaries.md`) instead of creating new ones
+
+**Plan Management Violations:**
+- ❌ **Creating plans without checking existing** - Always check `plans/active/` and `plans/epics/` before creating new plan
+- ❌ **Creating plans without metadata** - All plans MUST include metadata (status, type, priority, dates, epic, system)
+- ❌ **Creating plans without updating index** - All new plans MUST be added to `plans/README.md` index
+- ❌ **Leaving completed plans in active** - Move completed plans to `plans/completed/[YYYY-MM]/` when implementation is done
+
+**Other Violations:**
+- ❌ Two agents editing the same file simultaneously
+- ❌ Skipping review step for code or architecture changes
+- ❌ Deleting files without moving them to archives/ first
 
 ### 7. Example Full Workflow (Feature Development)
 

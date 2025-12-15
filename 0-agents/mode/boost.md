@@ -1,6 +1,6 @@
 # Boost Mode — AI-First Startup Factory
 
-**Version:** v3.0  
+**Version:** v3.1  
 **Purpose:** Define the scope, activities, and workflow for Boost Mode (project initialization)
 
 ## Overview
@@ -10,6 +10,42 @@ Boost Mode is a one-time initialization mode for setting up a new project or reo
 **Command:** Use `/boost` in Cursor IDE to activate this mode.
 
 **When to Use:** Only for initial project setup or major restructuring. Not for regular development work.
+
+## What Boost Mode Creates
+
+**For a completely new project (only `0-agents/` exists), Boost Mode will create:**
+
+1. **`INDEX.md`** - Complete structure definition (if doesn't exist)
+2. **All directories** - Complete directory structure with all sub-levels (up to 4-5 levels deep)
+3. **All README.md files** - One README.md for every directory that should have one
+4. **Placeholder files** - Essential placeholder files for project initialization
+
+**Structure depth:** Boost Mode creates structure up to 4-5 levels deep:
+- Level 1: Main sections (1-ideas/, 2-product-foundation/, etc.)
+- Level 2: Subdirectories (1.1-market-research/, 3.1-system-foundation/, etc.)
+- Level 3: Sub-subdirectories (architecture/, design-standards/, plans/, etc.)
+- Level 4: Sub-sub-subdirectories (active/, completed/, archived/, epics/, etc.)
+- Level 5: Final level (specific directories like analysis/, templates/, etc.)
+
+**Structure source:** The complete structure is defined in `INDEX.md` or the structure template below. This is the single source of truth for what Boost Mode creates.
+
+## When to Use Boost Mode
+
+**For a completely new project (only `0-agents/` exists), Boost Mode will create:**
+
+1. **`INDEX.md`** - Complete structure definition (if doesn't exist)
+2. **All directories** - Complete directory structure with all sub-levels (up to 4-5 levels deep)
+3. **All README.md files** - One README.md for every directory that should have one (see complete list in Step 1)
+4. **Placeholder files** - Essential placeholder files for project initialization
+
+**Structure depth:** Boost Mode creates structure up to 4-5 levels deep:
+- Level 1: Main sections (1-ideas/, 2-product-foundation/, etc.)
+- Level 2: Subdirectories (1.1-market-research/, 3.1-system-foundation/, etc.)
+- Level 3: Sub-subdirectories (architecture/, design-standards/, plans/, etc.)
+- Level 4: Sub-sub-subdirectories (active/, completed/, archived/, epics/, etc.)
+- Level 5: Final level (specific directories like file-placement/, documentation/, etc.)
+
+**Structure source:** The complete structure is defined in the "Structure Template" section below. This is the single source of truth for what Boost Mode creates.
 
 ## When to Use Boost Mode
 
@@ -30,36 +66,129 @@ Use Boost Mode when:
 ### 0. Read Current State (ALWAYS START HERE)
 
 **Before starting any boost operations:**
-1. **Read `INDEX.md`** - Understand the complete target structure
+1. **Check if `INDEX.md` exists:**
+   - **If EXISTS:** Read `INDEX.md` to understand the complete target structure
+   - **If NOT EXISTS:** You will create it in Step 1 using the structure template below
 2. **Read `0-agents/_core/global-rules.md`** - Understand non-negotiable rules, especially:
+   - Section 1: Repository Context & Navigation (INDEX.md reading, file-placement-guide.md)
+   - Section 4: AI Agent Behaviour (file creation checks)
    - Rule 10.1: Task Validation Gate (tasks must link to epic/idea/plan)
    - Rule 11: Work-Item Traceability System (all work items must have metadata)
-3. **Read `0-agents/_core/work-item-traceability.md`** - Understand work-item metadata requirements and ID schema
-4. **Scan current codebase** - Identify existing files and structure
-5. **Check if `0-agents/` exists** - This directory should already exist and must NOT be modified
-6. **Identify scattered files** - Find files in wrong locations
+3. **Read `0-agents/_core/file-placement-guide.md`** - Understand detailed file placement rules and directory-specific guidance
+4. **Read `0-agents/_core/work-item-traceability.md`** - Understand work-item metadata requirements and ID schema
+5. **Scan current codebase** - Identify existing files and structure
+6. **Check if `0-agents/` exists** - This directory should already exist and must NOT be modified
+7. **Identify scattered files** - Find files in wrong locations
 
-**Action:** Always understand current state before creating structure or migrating files. Boost is not just structure setup—it also ensures traceability system is in place.
+**Action:** Always understand current state before creating structure or migrating files. Boost is not just structure setup—it also ensures traceability system is in place and follows the new structure compliance rules.
 
 ### 1. Create Directory Structure
 
 **Action:**
-1. Read `INDEX.md` to understand complete target structure
-2. Create all required directories and subdirectories as defined in `INDEX.md`
-3. For multi-system projects: Create `systems/` directory with structure for each system
-4. All projects use unified `systems/[system-name]/` structure
-5. Create all required `README.md` files with proper routing content
-6. Create placeholder files as needed (e.g., `project-versions.md`, `changelog.md`)
+1. **Check if `INDEX.md` exists:**
+   - **If NOT EXISTS:** Create `INDEX.md` first using the structure template (see "Structure Template" section below)
+   - **If EXISTS:** Use it as reference (already read in Step 0)
+2. **Follow global-rules checks** - Complete mandatory checks from `0-agents/_core/global-rules.md` (already done in Step 0):
+   - Section 1: Read INDEX.md FIRST and read README.md before taking action (already required)
+   - Section 4: File creation checks (already done)
+3. Read `0-agents/_core/file-placement-guide.md` for detailed placement rules (already done in Step 0)
+4. **Create all required directories and subdirectories** as defined in `INDEX.md` (or structure template if INDEX.md was just created)
+5. For multi-system projects: Create `systems/` directory with structure for each system
+6. All projects use unified `systems/[system-name]/` structure
+7. **Create all required `README.md` files** for every directory in the structure:
+   - Root: `README.md`
+   - Main sections: `1-ideas/README.md`, `2-product-foundation/README.md`, `3-technical/README.md`, `systems/README.md`, `4-marketing/README.md`, `5-financing/README.md`, `6-operations/README.md`, `7-operations-monitoring/README.md`, `8-governance/README.md`, `shared/README.md`, `archives/README.md`
+   - Subdirectories with README.md:
+     - `1-ideas/1.1-market-research/README.md`
+     - `1-ideas/marketing/README.md`
+     - `1-ideas/technical/README.md`
+     - `1-ideas/operations/README.md`
+     - `1-ideas/finance/README.md`
+     - `1-ideas/product/README.md`
+     - `1-ideas/executive-docs/README.md`
+     - `3-technical/3.1-system-foundation/README.md`
+     - `3-technical/3.1-system-foundation/architecture/README.md`
+     - `3-technical/3.1-system-foundation/design-standards/README.md`
+     - `3-technical/3.2-implementation/README.md`
+     - `3-technical/3.2-implementation/plans/README.md`
+     - `3-technical/3.3-devops/README.md`
+     - `5-financing/analysis/README.md`
+     - `5-financing/preparation/README.md`
+     - `6-operations/team/README.md`
+     - `6-operations/processes/README.md`
+     - `6-operations/legal/README.md`
+     - `8-governance/audits/README.md`
+   - Use README.md templates (see "README.md Templates" section below)
+   - Document purpose, scope, and naming conventions
+   - Include navigation links to parent and related directories
+   - **Verification loop:** After structure creation, diff the directory tree against `INDEX.md` and ensure every directory listed above has a README. If a README is missing or placeholder-only, create/refresh it using the template so Boost exits with all READMEs ready.
+8. **Create placeholder files** as needed:
+   - `8-governance/changelog.md`
+   - `8-governance/project-versions.md`
+   - `8-governance/decision-log.md`
+   - `8-governance/risk-register.md`
+   - `2-product-foundation/2.1-product-overview.md`
+   - `2-product-foundation/2.2-product-backlog/backlog.md`
+   - `3-technical/3.1-system-foundation/infrastructure.md`
+   - `3-technical/3.1-system-foundation/architecture/domain-specs.md`
+   - `3-technical/3.1-system-foundation/design-standards/coding-standards.md`
+   - `3-technical/3.1-system-foundation/design-standards/system-design.md`
+   - `3-technical/3.2-implementation/status/progress.md`
+   - `3-technical/3.2-implementation/status/work-items-registry.md` (master index for traceability)
+   - `3-technical/3.2-implementation/history/history.log.md`
+   - `4-marketing/go-to-market.md`
+   - `4-marketing/personas.md`
+   - `5-financing/plans.md`
+   - `6-operations/team/team-structure.md`
+   - `7-operations-monitoring/marketing-analytics.md`
+   - `7-operations-monitoring/incident-response.md`
+   - `1-ideas/1.1-market-research/summaries.md`
+
+**Complete Directory List to Create (all levels):**
+- Root: `README.md`, `INDEX.md`, `.cursorrules`
+- `1-ideas/` + all subdirectories (1.1-market-research/, marketing/, technical/, operations/, finance/, product/, executive-docs/)
+- `2-product-foundation/` + subdirectories (2.2-product-backlog/, requirements/)
+- `3-technical/` + all subdirectories (3.1-system-foundation/ with architecture/ and design-standards/, 3.2-implementation/ with status/, history/, plans/ with active/, completed/, archived/, epics/, 3.3-devops/ with local-config/)
+- `systems/` + subdirectories (shared/ with libraries/, packages/, services/, [system-name]/ with docs/, frontend/, backend/, tests/, db/)
+- `4-marketing/` + subdirectories (channels/, performance/)
+- `5-financing/` + subdirectories (analysis/, preparation/, reviews/, pitches/, projections/)
+- `6-operations/` + subdirectories (team/, processes/, legal/, hr/, vendor-contracts/)
+- `7-operations-monitoring/` + subdirectories (system-monitoring/)
+- `8-governance/` + subdirectories (audits/ with file-placement/, documentation/, placement/, assessments/, reviews/, quarterly-retrospective/, scripts/)
+- `shared/` + subdirectories (templates/, assets/)
+- `archives/`
 
 **Important:**
 - **DO NOT** modify or move anything in `0-agents/` directory
 - **DO NOT** overwrite existing files without user confirmation
 - Create directories even if they will be empty initially
+- **Global-rules Section 1 already requires reading README.md** before taking action in any folder
 
 **Output:**
-- List all directories created
-- List all README.md files created
-- Confirm structure matches target in `INDEX.md`
+- List all directories created (all levels)
+- List all README.md files created (one for each directory that should have one)
+- List all placeholder files created
+- Confirm structure matches target in `INDEX.md` (or structure template)
+
+**Complete Directory List to Create:**
+- Root: `README.md`, `INDEX.md`, `.cursorrules`
+- `1-ideas/` + all subdirectories (1.1-market-research/, marketing/, technical/, operations/, finance/, product/, executive-docs/)
+- `2-product-foundation/` + subdirectories (2.2-product-backlog/, requirements/)
+- `3-technical/` + all subdirectories (3.1-system-foundation/ with architecture/ and design-standards/, 3.2-implementation/ with status/, history/, plans/ with active/, completed/, archived/, epics/, 3.3-devops/ with local-config/)
+- `systems/` + subdirectories (shared/ with libraries/, packages/, services/, [system-name]/ with docs/, frontend/, backend/, tests/, db/)
+- `4-marketing/` + subdirectories (channels/, performance/)
+- `5-financing/` + subdirectories (analysis/, preparation/, reviews/, pitches/, projections/)
+- `6-operations/` + subdirectories (team/, processes/, legal/, hr/, vendor-contracts/)
+- `7-operations-monitoring/` + subdirectories (system-monitoring/)
+- `8-governance/` + subdirectories (audits/ with file-placement/, documentation/, placement/, assessments/, reviews/, quarterly-retrospective/, scripts/)
+- `shared/` + subdirectories (templates/, assets/)
+- `archives/`
+
+**Output:**
+- List all directories created (all levels)
+- List all README.md files created (one for each directory that should have one)
+- List all placeholder files created
+- Confirm structure matches target in `INDEX.md` (or structure template)
 
 ### 2. Analyze Current Codebase
 
@@ -76,8 +205,9 @@ Use Boost Mode when:
 
 4. For each file, determine:
    - **Current location**
-   - **Proposed target location** (based on content analysis and `INDEX.md`)
+   - **Proposed target location** (based on content analysis, `INDEX.md`, and `file-placement-guide.md`)
    - **Proposed new filename** (if renaming needed to follow naming conventions)
+   - **Content overlap check** - Verify no overlap with existing files in target directory (README.md already read per global-rules Section 1)
    - **Reasoning** for the placement
 
 **Output:** Create detailed analysis report with tables for each file category.
@@ -170,30 +300,33 @@ If source code files exist in the codebase, perform code quality analysis:
 
 **Action:**
 1. Create detailed migration plan based on analysis and user confirmations
-2. Group operations by type:
-   - **Move operations:** Files to move to new locations
-   - **Rename operations:** Files to rename (following naming conventions)
+2. **For each file to move:**
+   - Verify no content overlap with existing files (README.md already read per global-rules Section 1)
+3. Group operations by type:
+   - **Move operations:** Files to move to new locations (with README.md verification)
+   - **Rename operations:** Files to rename (following naming conventions from directory README.md)
    - **Refactor operations:** Files that need content updates (e.g., update links)
    - **Create operations:** New files to create (e.g., missing README.md)
 
-3. **Ensure traceability compliance** (MANDATORY):
+4. **Ensure traceability compliance** (MANDATORY):
    - Identify all epic definitions (should be in `2-product-foundation/2.2-product-backlog/backlog.md`)
    - Identify all work items (tasks, slices, bugs, plans)
    - Ensure each work item will have required metadata (YAML frontmatter with `id`, `parent_id`, `related_ids`, `phases`, `owner`, `folder`)
    - Check that `3-technical/3.2-implementation/status/work-items-registry.md` will be updated as source of truth
    - Verify task validation gate can be enforced (every task must link to epic/idea/plan)
 
-4. Check for conflicts:
+5. Check for conflicts:
    - Will moving/renaming break any imports/references?
    - Are there duplicate files?
    - Will this overwrite existing files?
+   - Is there content overlap with existing files in target directories?
 
-5. **Include refactoring suggestions** (if Step 2.5 was performed):
+6. **Include refactoring suggestions** (if Step 2.5 was performed):
    - Reference the code quality report
    - Note that refactoring suggestions are separate from migration
    - User can implement refactoring suggestions later in Code Mode or Fix Mode
 
-6. Present migration plan to user for approval before executing
+7. Present migration plan to user for approval before executing
 
 **Output:** Detailed migration plan with phases, potential issues, reference to refactoring suggestions (if available), and **traceability compliance checklist**.
 
@@ -283,13 +416,14 @@ Create comprehensive final report with:
 
 ✅ **You CAN:**
 - **Read `INDEX.md`** - Always read to understand target structure
-- **Read `0-agents/_core/global-rules.md`** - Understand rules, especially task validation gate and traceability system
+- **Read `0-agents/_core/global-rules.md`** - Understand rules, especially file creation checks, task validation gate and traceability system (Section 1 already requires reading README.md)
+- **Read `0-agents/_core/file-placement-guide.md`** - Understand detailed file placement rules
 - **Read `0-agents/_core/work-item-traceability.md`** - Understand metadata and ID schema requirements
 - Create directory structure as defined in `INDEX.md`
 - Create README.md files with proper routing
 - Analyze existing files and categorize them
 - **Scan code quality** (if source code exists) and suggest refactoring opportunities
-- Move files to correct locations
+- Move files to correct locations (README.md already read per global-rules Section 1)
 - Rename files to follow naming conventions
 - Update import paths and links
 - Create migration reports and refactoring suggestions reports
@@ -338,12 +472,20 @@ Boost Mode typically transitions to:
 ## Pre-Boost Checklist
 
 Before starting boost, ensure:
-- ✅ `INDEX.md` exists or you understand target structure
 - ✅ `0-agents/` directory exists (will not be modified)
 - ✅ User understands this is a one-time setup operation
 - ✅ User is ready to review and approve migration plan
 - ✅ User is aware of Task Validation Gate and Work-Item Traceability requirements
 - ✅ User understands Plan Mode must follow Boost Mode to establish initial epics
+
+**Note:** `INDEX.md` may not exist yet. Boost mode will create it using the structure template if it doesn't exist.
+
+**Structure Definition:**
+- **Structure template** is defined in boost mode (see "Structure Template" section below)
+- **File-placement-guide.md** provides placement rules, NOT structure definition
+- **INDEX.md** (when created) becomes the single source of truth for structure
+- **Boost mode creates ALL sub-levels** defined in the structure template (up to 4-5 levels deep)
+- **Boost mode creates README.md** for every directory listed in Step 1
 
 ## Success Criteria
 
@@ -382,10 +524,628 @@ When in Boost Mode, use this format:
 **Blockers/Issues**: [None / List any blockers or files requiring user decision]
 ```
 
+## Structure Template (For Creating INDEX.md)
+
+If `INDEX.md` does not exist, create it using this template structure:
+
+```markdown
+# INDEX — AI-First Startup Factory
+
+**Version:** v3.0  
+**Last Updated:** [Current Date]
+
+This document is the single source of truth for the repository structure. Always consult this file to understand where files belong.
+
+## Quick Links
+
+### Core Directories
+- **[0-agents/](0-agents/)** - AI agent definitions, modes, workflows, and skills (DO NOT MODIFY)
+- **[1-ideas/](1-ideas/)** - Market research, initial financing plans, initial go-to-market plans
+- **[2-product-foundation/](2-product-foundation/)** - Product overview, backlog, requirements
+- **[3-technical/](3-technical/)** - System foundation, implementation, DevOps
+- **[systems/](systems/)** - All code for all systems (single-system or multi-system projects)
+- **[4-marketing/](4-marketing/)** - Go-to-market strategy, channels, personas, performance
+- **[5-financing/](5-financing/)** - Financing plans, pitches, projections
+- **[6-operations/](6-operations/)** - Team structure, legal, HR, vendor contracts
+- **[7-operations-monitoring/](7-operations-monitoring/)** - System monitoring, marketing analytics, incident response
+- **[8-governance/](8-governance/)** - Project versions, changelog, decision log, risk register, retrospectives
+- **[shared/](shared/)** - Shared templates and assets
+- **[archives/](archives/)** - Archived documents
+
+## Complete Directory Structure
+
+```
+[project-root]/
+├── README.md
+├── INDEX.md (this file)
+├── .cursorrules
+├── 0-agents/ (already exists - DO NOT MODIFY)
+│   ├── _core/
+│   ├── agents/
+│   ├── mode/
+│   └── workflows/
+├── 1-ideas/
+│   ├── README.md
+│   ├── market-research/
+│   │   ├── README.md
+│   │   ├── reports/
+│   │   ├── summaries.md
+│   │   ├── templates/
+│   │   └── resources/
+│   ├── marketing/
+│   │   ├── README.md
+│   │   └── initial-go-to-market-plan.md
+│   ├── technical/
+│   │   ├── README.md
+│   ├── operations/
+│   │   ├── README.md
+│   ├── finance/
+│   │   ├── README.md
+│   │   └── initial-financing-plan.md
+│   ├── product/
+│   │   ├── README.md
+│   │   └── features/
+│   │       ├── README.md
+│   │       ├── summaries.md
+│   │       └── analysis/
+│   └── executive-docs/
+│       ├── README.md
+│       └── executive-summary.md
+├── 2-product-foundation/
+│   ├── README.md
+│   ├── 2.1-product-overview.md
+│   ├── 2.2-product-backlog/
+│   │   └── backlog.md
+│   └── requirements/
+├── 3-technical/
+│   ├── README.md
+│   ├── 3.1-system-foundation/
+│   │   ├── README.md
+│   │   ├── infrastructure.md
+│   │   ├── architecture/
+│   │   │   ├── README.md
+│   │   │   ├── domain-specs.md
+│   │   │   └── api-contracts/
+│   │   └── design-standards/
+│   │       ├── README.md
+│   │       ├── coding-standards.md
+│   │       └── system-design.md
+│   ├── 3.2-implementation/
+│   │   ├── README.md
+│   │   ├── domain-specs.md
+│   │   ├── api-contract.md
+│   │   ├── status/
+│   │   │   └── progress.md
+│   │   ├── history/
+│   │   │   ├── epics/
+│   │   │   └── history.log.md
+│   │   └── plans/
+│   │       ├── README.md
+│   │       ├── active/
+│   │       ├── completed/
+│   │       ├── archived/
+│   │       └── epics/
+│   └── 3.3-devops/
+│       ├── README.md
+│       ├── local-config/
+│       └── server-steps.md
+├── systems/
+│   ├── README.md
+│   ├── shared/
+│   │   ├── libraries/
+│   │   ├── packages/
+│   │   └── services/
+│   └── [system-name]/
+│       ├── README.md
+│       ├── docs/
+│       ├── frontend/
+│       ├── backend/
+│       ├── tests/
+│       └── db/
+├── 4-marketing/
+│   ├── README.md
+│   ├── go-to-market.md
+│   ├── channels/
+│   ├── personas.md
+│   └── performance/
+├── 5-financing/
+│   ├── README.md
+│   ├── plans.md
+│   ├── analysis/
+│   │   └── README.md
+│   ├── preparation/
+│   │   └── README.md
+│   ├── reviews/
+│   ├── pitches/
+│   └── projections/
+├── 6-operations/
+│   ├── README.md
+│   ├── team/
+│   │   └── README.md
+│   ├── processes/
+│   │   └── README.md
+│   ├── legal/
+│   │   └── README.md
+│   ├── hr/
+│   └── vendor-contracts/
+├── 7-operations-monitoring/
+│   ├── README.md
+│   ├── system-monitoring/
+│   ├── marketing-analytics.md
+│   └── incident-response.md
+├── 8-governance/
+│   ├── README.md
+│   ├── project-versions.md
+│   ├── changelog.md
+│   ├── decision-log.md
+│   ├── risk-register.md
+│   ├── audits/
+│   │   ├── README.md
+│   │   ├── file-placement/
+│   │   ├── documentation/
+│   │   └── placement/
+│   ├── assessments/
+│   ├── reviews/
+│   ├── quarterly-retrospective/
+│   └── scripts/
+├── shared/
+│   ├── README.md
+│   ├── templates/
+│   └── assets/
+└── archives/
+    └── README.md
+```
+
+## File Placement Rules
+
+### Code Files
+- **All code** goes in `systems/[system-name]/`
+- **Single-system projects:** One directory in `systems/` (e.g., `systems/web-app/`)
+- **Multi-system projects:** Multiple directories in `systems/` (e.g., `systems/web-app/`, `systems/mobile-app/`)
+- **Shared code:** Place in `systems/shared/` for code used across systems
+
+### Documentation Files
+- **Market research:** `1-ideas/market-research/reports/`
+- **Product requirements:** `2-product-foundation/requirements/`
+- **Architecture docs:** `3-technical/3.1-system-foundation/architecture/`
+- **Implementation plans:** `3-technical/3.2-implementation/plans/`
+- **Marketing docs:** `4-marketing/`
+- **Financial docs:** `5-financing/`
+
+### Initial vs Final Documents
+- **Initial plans** live in `1-ideas/[department]/` (e.g., `finance/initial-financing-plan.md`, `marketing/initial-go-to-market-plan.md`)
+- **Final versions** move to proper sections:
+   - `finance/initial-financing-plan.md` → `5-financing/plans.md`
+   - `marketing/initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
+- When moving, leave a Markdown link pointing to the new location
+
+## Naming Conventions
+
+- **Files & Folders:** kebab-case (`product-overview.md`, `market-research/`)
+- **Dates:** YYYY-MM-DD format
+- **Versioned files:** `filename.v2025-12-09.md` (only in `archives/`)
+- **All documents:** Markdown (.md)
+- **Code files:** Follow language conventions (PascalCase for React components, camelCase for utilities)
+
+## Important Notes
+
+- **DO NOT modify `0-agents/`** - This directory contains agent definitions and must remain untouched
+- **Every folder has a README.md** - Read it before taking action in that folder
+- **Single source of truth** - Never duplicate information across folders
+- **Update INDEX.md and changelog.md** after structural changes
+
+---
+
+**Remember:** When in doubt about file placement, consult this INDEX.md file first.
+```
+
+## README.md Templates
+
+When creating README.md files for directories, use these templates:
+
+### Root README.md Template
+```markdown
+# [Project Name] — AI-First Startup Factory
+
+Welcome to the [Project Name] repository, organized using the AI-First Startup Factory structure.
+
+## Quick Start
+
+1. **Read [INDEX.md](INDEX.md)** - Understand the complete directory structure
+2. **Follow [0-agents/_core/global-rules.md](0-agents/_core/global-rules.md)** - Repository rules and conventions
+3. **Select the correct mode** - See [0-agents/mode/](0-agents/mode/) for available modes
+4. **Use the right agent workflow** - See [0-agents/agents/](0-agents/agents/) for agent definitions
+
+## Repository Structure
+
+This repository follows the Factory template structure:
+- **[0-agents/](0-agents/)** - AI agent definitions, modes, workflows, and skills
+- **[1-ideas/](1-ideas/)** - Market research, initial plans
+- **[2-product-foundation/](2-product-foundation/)** - Product overview, backlog, requirements
+- **[3-technical/](3-technical/)** - System foundation, implementation, DevOps
+- **[systems/](systems/)** - All code for all systems
+- **[4-marketing/](4-marketing/)** - Go-to-market strategy
+- **[5-financing/](5-financing/)** - Financing plans and projections
+- **[6-operations/](6-operations/)** - Team, legal, HR
+- **[7-operations-monitoring/](7-operations-monitoring/)** - Monitoring and analytics
+- **[8-governance/](8-governance/)** - Project governance and documentation
+
+For complete structure details, see [INDEX.md](INDEX.md).
+
+## Important Rules
+
+- **DO NOT modify `0-agents/`** - This directory contains agent definitions
+- **Always read folder README.md** before taking action in that folder
+- **Update INDEX.md and changelog.md** after structural changes
+- **Follow naming conventions** - kebab-case for files and folders
+```
+
+### Section README.md Template (e.g., 1-ideas/README.md)
+```markdown
+# [Section Name] — [Purpose]
+
+[Brief description of what this section contains]
+
+## Contents
+
+- **[Subdirectory 1/](subdirectory-1/)** - [Description]
+- **[Subdirectory 2/](subdirectory-2/)** - [Description]
+
+## Purpose
+
+[Explain the purpose and scope of this section]
+
+## Navigation
+
+- **Related Section:** [../related-section/](../related-section/)
+- **Parent:** [../](../)
+
+---
+
+See [INDEX.md](../INDEX.md) for complete repository structure.
+```
+
+### Subdirectory README.md Template
+```markdown
+# [Subdirectory Name] — [Purpose]
+
+[Brief description of what this subdirectory contains]
+
+## Contents
+
+- **[File or subdirectory]** - [Description]
+
+## Purpose
+
+[Explain the purpose and scope]
+
+## Naming Conventions
+
+- [Any specific naming conventions for this directory]
+
+## Navigation
+
+- **Parent:** [../](../)
+- **Related:** [../../related/](../../related/)
+
+---
+
+See [INDEX.md](../INDEX.md) for complete repository structure.
+```
+
+## Structure Template (For Creating INDEX.md)
+
+If `INDEX.md` does not exist, create it using this template structure:
+
+```markdown
+# INDEX — AI-First Startup Factory
+
+**Version:** v3.0  
+**Last Updated:** [Current Date]
+
+This document is the single source of truth for the repository structure. Always consult this file to understand where files belong.
+
+## Quick Links
+
+### Core Directories
+- **[0-agents/](0-agents/)** - AI agent definitions, modes, workflows, and skills (DO NOT MODIFY)
+- **[1-ideas/](1-ideas/)** - Market research, initial financing plans, initial go-to-market plans
+- **[2-product-foundation/](2-product-foundation/)** - Product overview, backlog, requirements
+- **[3-technical/](3-technical/)** - System foundation, implementation, DevOps
+- **[systems/](systems/)** - All code for all systems (single-system or multi-system projects)
+- **[4-marketing/](4-marketing/)** - Go-to-market strategy, channels, personas, performance
+- **[5-financing/](5-financing/)** - Financing plans, pitches, projections
+- **[6-operations/](6-operations/)** - Team structure, legal, HR, vendor contracts
+- **[7-operations-monitoring/](7-operations-monitoring/)** - System monitoring, marketing analytics, incident response
+- **[8-governance/](8-governance/)** - Project versions, changelog, decision log, risk register, retrospectives
+- **[shared/](shared/)** - Shared templates and assets
+- **[archives/](archives/)** - Archived documents
+
+## Complete Directory Structure
+
+```
+[project-root]/
+├── README.md
+├── INDEX.md (this file)
+├── .cursorrules
+├── 0-agents/ (already exists - DO NOT MODIFY)
+│   ├── _core/
+│   ├── agents/
+│   ├── mode/
+│   └── workflows/
+├── 1-ideas/
+│   ├── README.md
+│   ├── market-research/
+│   │   ├── README.md
+│   │   ├── reports/
+│   │   ├── summaries.md
+│   │   ├── templates/
+│   │   └── resources/
+│   ├── marketing/
+│   │   ├── README.md
+│   │   └── initial-go-to-market-plan.md
+│   ├── technical/
+│   │   ├── README.md
+│   ├── operations/
+│   │   ├── README.md
+│   ├── finance/
+│   │   ├── README.md
+│   │   └── initial-financing-plan.md
+│   ├── product/
+│   │   ├── README.md
+│   │   └── features/
+│   │       ├── README.md
+│   │       ├── summaries.md
+│   │       └── analysis/
+│   └── executive-docs/
+│       ├── README.md
+│       └── executive-summary.md
+├── 2-product-foundation/
+│   ├── README.md
+│   ├── 2.1-product-overview.md
+│   ├── 2.2-product-backlog/
+│   │   └── backlog.md
+│   └── requirements/
+├── 3-technical/
+│   ├── README.md
+│   ├── 3.1-system-foundation/
+│   │   ├── README.md
+│   │   ├── infrastructure.md
+│   │   ├── architecture/
+│   │   │   ├── README.md
+│   │   │   ├── domain-specs.md
+│   │   │   └── api-contracts/
+│   │   └── design-standards/
+│   │       ├── README.md
+│   │       ├── coding-standards.md
+│   │       └── system-design.md
+│   ├── 3.2-implementation/
+│   │   ├── README.md
+│   │   ├── domain-specs.md
+│   │   ├── api-contract.md
+│   │   ├── status/
+│   │   │   └── progress.md
+│   │   ├── history/
+│   │   │   ├── epics/
+│   │   │   └── history.log.md
+│   │   └── plans/
+│   │       ├── README.md
+│   │       ├── active/
+│   │       ├── completed/
+│   │       ├── archived/
+│   │       └── epics/
+│   └── 3.3-devops/
+│       ├── README.md
+│       ├── local-config/
+│       └── server-steps.md
+├── systems/
+│   ├── README.md
+│   ├── shared/
+│   │   ├── libraries/
+│   │   ├── packages/
+│   │   └── services/
+│   └── [system-name]/
+│       ├── README.md
+│       ├── docs/
+│       ├── frontend/
+│       ├── backend/
+│       ├── tests/
+│       └── db/
+├── 4-marketing/
+│   ├── README.md
+│   ├── go-to-market.md
+│   ├── channels/
+│   ├── personas.md
+│   └── performance/
+├── 5-financing/
+│   ├── README.md
+│   ├── plans.md
+│   ├── analysis/
+│   │   └── README.md
+│   ├── preparation/
+│   │   └── README.md
+│   ├── reviews/
+│   ├── pitches/
+│   └── projections/
+├── 6-operations/
+│   ├── README.md
+│   ├── team/
+│   │   └── README.md
+│   ├── processes/
+│   │   └── README.md
+│   ├── legal/
+│   │   └── README.md
+│   ├── hr/
+│   └── vendor-contracts/
+├── 7-operations-monitoring/
+│   ├── README.md
+│   ├── system-monitoring/
+│   ├── marketing-analytics.md
+│   └── incident-response.md
+├── 8-governance/
+│   ├── README.md
+│   ├── project-versions.md
+│   ├── changelog.md
+│   ├── decision-log.md
+│   ├── risk-register.md
+│   ├── audits/
+│   │   ├── README.md
+│   │   ├── file-placement/
+│   │   ├── documentation/
+│   │   └── placement/
+│   ├── assessments/
+│   ├── reviews/
+│   ├── quarterly-retrospective/
+│   └── scripts/
+├── shared/
+│   ├── README.md
+│   ├── templates/
+│   └── assets/
+└── archives/
+    └── README.md
+```
+
+## File Placement Rules
+
+### Code Files
+- **All code** goes in `systems/[system-name]/`
+- **Single-system projects:** One directory in `systems/` (e.g., `systems/web-app/`)
+- **Multi-system projects:** Multiple directories in `systems/` (e.g., `systems/web-app/`, `systems/mobile-app/`)
+- **Shared code:** Place in `systems/shared/` for code used across systems
+
+### Documentation Files
+- **Market research:** `1-ideas/market-research/reports/`
+- **Product requirements:** `2-product-foundation/requirements/`
+- **Architecture docs:** `3-technical/3.1-system-foundation/architecture/`
+- **Implementation plans:** `3-technical/3.2-implementation/plans/`
+- **Marketing docs:** `4-marketing/`
+- **Financial docs:** `5-financing/`
+
+### Initial vs Final Documents
+- **Initial plans** live in `1-ideas/[department]/` (e.g., `finance/initial-financing-plan.md`, `marketing/initial-go-to-market-plan.md`)
+- **Final versions** move to proper sections:
+   - `finance/initial-financing-plan.md` → `5-financing/plans.md`
+   - `marketing/initial-go-to-market-plan.md` → `4-marketing/go-to-market.md`
+- When moving, leave a Markdown link pointing to the new location
+
+## Naming Conventions
+
+- **Files & Folders:** kebab-case (`product-overview.md`, `market-research/`)
+- **Dates:** YYYY-MM-DD format
+- **Versioned files:** `filename.v2025-12-09.md` (only in `archives/`)
+- **All documents:** Markdown (.md)
+- **Code files:** Follow language conventions (PascalCase for React components, camelCase for utilities)
+
+## Important Notes
+
+- **DO NOT modify `0-agents/`** - This directory contains agent definitions and must remain untouched
+- **Every folder has a README.md** - Read it before taking action in that folder
+- **Single source of truth** - Never duplicate information across folders
+- **Update INDEX.md and changelog.md** after structural changes
+
+---
+
+**Remember:** When in doubt about file placement, consult this INDEX.md file first.
+```
+
+## README.md Templates
+
+When creating README.md files for directories, use these templates:
+
+### Root README.md Template
+```markdown
+# [Project Name] — AI-First Startup Factory
+
+Welcome to the [Project Name] repository, organized using the AI-First Startup Factory structure.
+
+## Quick Start
+
+1. **Read [INDEX.md](INDEX.md)** - Understand the complete directory structure
+2. **Follow [0-agents/_core/global-rules.md](0-agents/_core/global-rules.md)** - Repository rules and conventions
+3. **Select the correct mode** - See [0-agents/mode/](0-agents/mode/) for available modes
+4. **Use the right agent workflow** - See [0-agents/agents/](0-agents/agents/) for agent definitions
+
+## Repository Structure
+
+This repository follows the Factory template structure:
+- **[0-agents/](0-agents/)** - AI agent definitions, modes, workflows, and skills
+- **[1-ideas/](1-ideas/)** - Market research, initial plans
+- **[2-product-foundation/](2-product-foundation/)** - Product overview, backlog, requirements
+- **[3-technical/](3-technical/)** - System foundation, implementation, DevOps
+- **[systems/](systems/)** - All code for all systems
+- **[4-marketing/](4-marketing/)** - Go-to-market strategy
+- **[5-financing/](5-financing/)** - Financing plans and projections
+- **[6-operations/](6-operations/)** - Team, legal, HR
+- **[7-operations-monitoring/](7-operations-monitoring/)** - Monitoring and analytics
+- **[8-governance/](8-governance/)** - Project governance and documentation
+
+For complete structure details, see [INDEX.md](INDEX.md).
+
+## Important Rules
+
+- **DO NOT modify `0-agents/`** - This directory contains agent definitions
+- **Always read folder README.md** before taking action in that folder
+- **Update INDEX.md and changelog.md** after structural changes
+- **Follow naming conventions** - kebab-case for files and folders
+```
+
+### Section README.md Template (e.g., 1-ideas/README.md)
+```markdown
+# [Section Name] — [Purpose]
+
+[Brief description of what this section contains]
+
+## Contents
+
+- **[Subdirectory 1/](subdirectory-1/)** - [Description]
+- **[Subdirectory 2/](subdirectory-2/)** - [Description]
+
+## Purpose
+
+[Explain the purpose and scope]
+
+## Navigation
+
+- **Parent:** [../](../)
+- **Related:** [../other-section/](../other-section/)
+
+---
+
+See [INDEX.md](../INDEX.md) for complete repository structure.
+```
+
+### Subdirectory README.md Template
+```markdown
+# [Subdirectory Name] — [Purpose]
+
+[Brief description of what this subdirectory contains]
+
+## Contents
+
+- **[File or subdirectory]** - [Description]
+
+## Purpose
+
+[Explain the purpose and scope]
+
+## Naming Conventions
+
+- [Any specific naming conventions for this directory]
+
+## Navigation
+
+- **Parent:** [../](../)
+- **Related:** [../../related/](../../related/)
+
+---
+
+See [INDEX.md](../../INDEX.md) for complete repository structure.
+```
+
 ## Related Documents
 
 - **[Boost Agent](../agents/boost.md)** - Primary agent for boost operations
-- **[INDEX.md](../../INDEX.md)** - Target directory structure reference
+- **[INDEX.md](../../INDEX.md)** - Target directory structure reference (create if doesn't exist)
 - **[Global Rules](../_core/global-rules.md)** - Repository rules, including Task Validation Gate (rule 10.1) and Work-Item Traceability (rule 11)
 - **[Work-Item Traceability System](../_core/work-item-traceability.md)** - Complete glossary, ID schema, metadata requirements, lifecycle tracking
 - **[Product Strategist Agent](../agents/product-strategist.md)** - Who enforces Task Validation Gate and owns epic definition
@@ -396,4 +1156,3 @@ When in Boost Mode, use this format:
 
 **Remember:** Boost Mode is a one-time setup operation.  
 When in doubt, ask the user. Better to ask than to make a wrong assumption.
-
